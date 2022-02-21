@@ -124,7 +124,8 @@ include_once("db_connect.php");
             $sql = "SELECT * FROM tbl_home_page  ";
             $resultset = mysqli_query($conn, $sql) or die("database error:". mysqli_error($conn));
           
-            while( $record = mysqli_fetch_assoc($resultset) ) { ?>
+            while( $record = mysqli_fetch_assoc($resultset) ) {
+                //TEST ?>
                
 
 
