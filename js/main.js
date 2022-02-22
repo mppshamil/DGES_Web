@@ -143,10 +143,10 @@ Website
             if ($(this).isInViewport()) {
 
                 setTimeout(function(){
-                    $('.odometer.first').html(5142);
+                    $('.odometer.first').html(250);
                     $('.odometer.second').html(51);
                     $('.odometer.third').html(422);
-                    $('.odometer.fourth').html(9870);
+                    $('.odometer.fourth').html(970);
                     $('.odometer.fifth').html(658);
                 }, 0);
             } else {

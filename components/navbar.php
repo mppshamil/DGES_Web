@@ -56,7 +56,7 @@
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="completedProject.php">Completed Projects</a>
+                                <a class="dropdown-item" href="completedProjects.php">Completed Projects</a>
                                 <a class="dropdown-item" href="ongoingProjects.php">Ongoing Projects</a>
                                 <!-- <a class="dropdown-item" href="#">Something else here</a>
                                 <a class="dropdown-item" href="#">Another action</a> -->

@@ -173,6 +173,7 @@
             </div>
         </div>
     </div>
+    <hr>
     <div class="wrapper">
         <div class="container">
             <div class="row">

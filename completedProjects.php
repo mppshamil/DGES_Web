@@ -28,174 +28,114 @@
 
   <!-- navigation -->
     <div class="navigation-wrap bg-light start-header start-style" style="background-color: rgba(3, 3, 3, 0.712);">
-        <?php 
+        <?php
             include('components/navbar.php');
         ?>
     </div>
 
-    <div class="intro-page">
+    <div class="projectsPage">
         <div class="container">
-            <h1 style="color: white;">OUR PROJECTS</h1>
-            <p style="color: gold;">Completed Projects</p>
-            <p>This is the Test Navigation Page</p>
-
+            <h1 style="color: gold;">COMPLETED PROJECTS</h1>
+            <!-- <p style="color: gold;">Completed Projects</p> -->
+            <!-- <p>This is the Test Navigation Page</p> -->
         </div>
     </div>
 
     <div class="wrapper">
         <article>
-
-            <div class="container">
+            <div class="container-fluid">
 
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
                              <div class="row">
+
                         <div class="col-md-6">
                             <div class="single-portfolio--slider">
                                 <div>
-                                    <img src="assets/img/services.jpg" alt="">
+                                    <img src="assets/img/projects/fabrication.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="assets/img/services.jpg" alt="">
+                                    <img src="assets/img/projects/generalInfra.jpg" alt=""> 
                                 </div>
                                 <div>
-                                    <img src="assets/img/services.jpg" alt="">
+                                    <img src="assets/img/projects/piping.jpg" alt="">
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6">
                             <h2>Project Name </h2>
-                            <p>Project Name m is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. </p>
                             <ul>
                                 <li>
-                                    <span>Categories</span>
+                                   <h5><span>Project Type</span></h5>
+                                    Web Development, 
+                                </li>
+                                <li>
+                                   <h5><span>Project Type</span></h5>
                                     Web Development
                                 </li>
                                 <li>
-                                    <span>Client</span>
-                                    Test Projects
+                                   <h5><span>Technologies</span></h5>
+                                    Web Development
                                 </li>
-                                <li>
-                                    <span>Technologies</span>
-                                    Project Name  is simply dumm                                </li>
                             </ul>
-                            <a href="#" class="button">Read More</a>
+                            <!-- <a href="#" class="button">Read More</a> -->
                         </div>
                     </div>
                 </div>
 
-
-                <div class="row">
+                <div class="row pt-5">
                     <div class="col">
                         <div class="single-portfolio">
-                             <div class="row">
-                       
-                        <div class="col-md-6">
-                            <h2>Project Name </h2>
-                            <p>Project Name  is simply dummy text of the printing and typesetting industry.</p>
-                            <ul>
-                                <li>
-                                    <span>Categories</span>
-                                    Web Development
-                                </li>
-                                <li>
-                                    <span>Client</span>
-                                   Test Projects
-                                </li>
-                                <li>
-                                    <span>Technologies</span>
-                                    Project Name  is simply dumm                                </li>
-                            </ul>
-                            <a href="#" class="button">Read More</a>
-                        </div>
+                        <div class="row">
                         <div class="col-md-6">
                             <div class="single-portfolio--slider">
                                 <div>
-                                    <img src="assets/img/services.jpg" alt="">
+                                    <img src="assets/img/projects/fabrication.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="assets/img/services.jpg" alt="">
+                                    <img src="assets/img/projects/generalInfra.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="assets/img/services.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                
-                <div class="row">
-                    <div class="col">
-                        <div class="single-portfolio">
-                             <div class="row">
-                        <div class="col-md-6">
-                            <div class="single-portfolio--slider">
-                                <div>
-                                    <img src="assets/img/services.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="assets/img/services.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="assets/img/services.jpg" alt="">
+                                    <img src="assets/img/projects/piping.jpg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <h2>Project Name </h2>
-                            <p>Project Name  is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. </p>
                             <ul>
                                 <li>
-                                    <span>Categories</span>
+                                   <h5><span>Project Type</span></h5>
+                                    Web Development, 
+                                </li>
+                                <li>
+                                   <h5><span>Project Type</span></h5>
                                     Web Development
                                 </li>
                                 <li>
-                                    <span>Client</span>
-                                    Test Projects
+                                   <h5><span>Technologies</span></h5>
+                                    Web Development
                                 </li>
-                                <li>
-                                    <span>Technologies</span>
-                                    Project Name  is simply dumm
-                                                                </li>
                             </ul>
-                            <a href="#" class="button">Read More</a>
+                            <!-- <a href="#" class="button">Read More</a> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-        </article>
+</article>
+</div>
 
-      
-    </div>
+<!-- footer -->
+<?php 
+        include('components/footer.php');
+?>
 
- 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                        <!-- <li><a href="#"><i class="fa fa-vimeo"></i></a></li> -->
-                        <!-- <li><a href="#"><i class="fa fa-tumblr"></i></a></li> -->
-                    </ul>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p><a href="#">Prototype Layout By Dockyard Total Solutions(Pvt) Ltd</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
 
 
 

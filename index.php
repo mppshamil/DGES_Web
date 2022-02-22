@@ -6,7 +6,7 @@ include_once("db_connect.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>DGES</title>
+    <title>DGES Web</title>
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -24,8 +24,7 @@ include_once("db_connect.php");
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css" rel="stylesheet">
     
     
-    <style>
-        
+<style>
     .carousel .media {
         position: relative;
         padding: 0 0 0 20px;
@@ -107,33 +106,28 @@ include_once("db_connect.php");
 </head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
 
-<script>
-    AOS.init();
-</script>
+    <script>
+        AOS.init();
+    </script>
 
-<div class="navigation-wrap bg-light start-header start-style" style="background-color: rgba(3, 3, 3, 0.712);">
-
-    <?php 
-        include('components/navbar.php');
+    <div class="navigation-wrap bg-light start-header start-style" style="background-color: rgba(3, 3, 3, 0.712);">
+        <?php 
+            include('components/navbar.php');
+        ?>
+    </div>
+    
+    <?php
+    // $sql = "SELECT * FROM tbl_home_page  ";
+    // $resultset = mysqli_query($conn, $sql) or die("database error:". mysqli_error($conn));
+        
+    // while( $record = mysqli_fetch_assoc($resultset)) {
     ?>
-
-</div>
-
-<?php
-
-            $sql = "SELECT * FROM tbl_home_page  ";
-            $resultset = mysqli_query($conn, $sql) or die("database error:". mysqli_error($conn));
-          
-            while( $record = mysqli_fetch_assoc($resultset) ) {
-                //TEST ?>
                
-
-
-   
+    
     <div class="home-slider">
         <div class="home-slider--wrapper" style="margin-top: -45px;">
             <div>
-                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/1.jpg') ;float: left;width: 100%;">
+                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home1.jpg') ;float: left;width: 100%;">
                     <div class="container" >
                         <h3></h3>
                         <h2  data-aos="fade-up">Welcome To Dockyard General Engineering Services</h2>
@@ -147,7 +141,21 @@ include_once("db_connect.php");
                 </div>
             </div>
             <div>
-                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/2.jpg');">
+                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home2.jpg');">
+                    <div class="container">
+                        <h3>Our clients are our first priority</h3>
+                        <h2>Welcome To Dockyard General Engineering Services</h2>
+                        <span class="dot-dash">.</span>
+                        <p>We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course.</p>
+                        <div class="slider-buttons">
+                            <!-- <a href="#" class="button">Get Started Now</a> -->
+                            <a href="#" class="button button-w">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home3.jpg');">
                     <div class="container">
                         <h3>Our clients are our first priority</h3>
                         <h2>Welcome To Dockyard General Engineering Services</h2>
@@ -213,7 +221,7 @@ include_once("db_connect.php");
                         <p class="text-justify" >We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course. 
                         We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.
                         </p>
-                        <a href="#" class="button">Our Portfolio</a>
+                        <a href="#" class="button">More Info</a>
                     </div>
                 </div>
             </div>
@@ -222,10 +230,10 @@ include_once("db_connect.php");
         <section class="case-study">
             <div class="container" data-aos="fade-right">
                 <h2>Our Products</h2>
-                <p>Dockyard General Engineering Services (Pvt) Ltd comprises of Sales / Technical Marketing division which has been established to provide high quality Material and Equipment solutions for Engineering & Industrial sector in line with company’s business scope.
+                <p class="text-light">Dockyard General Engineering Services (Pvt) Ltd comprises of Sales / Technical Marketing division which has been established to provide high quality Material and Equipment solutions for Engineering & Industrial sector in line with company’s business scope.
                 We provide Engineering & Industrial Product Solutions with world renowned brands of products including but not limited to: PPG / SIGMA corrosion control & asset protection coating solutions, GRACO Airless Sprayers & high performance coating application systems, ECOQUIP Vapor Abrasive (blasting) surface cleaning & preparation systems, KEMPPI inverter welding solutions of all forms.</p>
-                <p>We are not just a material or equipment supplier but a solution provider matching with industry standard and meeting exact need of our customers. We always concern about high quality, long term durability and after sales service of what we offer.</p>
-                <span class="dot-dash dark">.</span>
+                <p class="text-light">We are not just a material or equipment supplier but a solution provider matching with industry standard and meeting exact need of our customers. We always concern about high quality, long term durability and after sales service of what we offer.</p>
+                <!-- <span class="dot-dash dark">.</span> -->
             </div>
             <div class="container" >
                 <div class="case-study--sliders">
@@ -234,7 +242,8 @@ include_once("db_connect.php");
                             <div>
                                 <!-- <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div> -->
                                 <h3 class="text-center">KEMPPI</h3>
-                                <p>We, Dockyard General Engineering Services (Pvt) Ltd are the local agent for KEMPPI in Sri Lanka and provide KEMPPI Inverter Welding Plant & Equipment for Arc / Stick Welding / MMA, MIG / MAG Welding and TIG Welding for Marine, Industrial and heavy engineering work.</p>
+                                <p class="text-dark">We, Dockyard General Engineering Services (Pvt) Ltd are the local agent for KEMPPI in Sri Lanka and provide KEMPPI Inverter Welding Plant & Equipment for Arc / Stick Welding / MMA, MIG / MAG Welding and TIG Welding for Marine, Industrial and heavy engineering work.</p>
+                                <p>If you are looking for welding machine for High quality work without wasting for rework KEMPPI is the right product to choose. KEMPPI is in built with many special features giving you a lot of advantages and value for money.</p>
                                 <p>If you are looking for welding machine for High quality work without wasting for rework KEMPPI is the right product to choose. KEMPPI is in built with many special features giving you a lot of advantages and value for money.</p>
                                 <a href="#" class="button small">Read More</a>
                             </div>
@@ -248,7 +257,7 @@ include_once("db_connect.php");
                                 <!-- <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div> -->
                                 <h3 class="text-center">GRACO</h3>
                                 <p>We, Dockyard General Engineering Services (Pvt) Ltd are the local agent for GRACO in Sri Lanka and provide sales,  technical support and after sales services for following GRACO Products and Systems.</p>
-                                <br>GRACO Airless Sprayers for High Performance Coating Applications</p>
+                                <p> GRACO Airless Sprayers for High Performance Coating Applications</p>
                                 <p>GRACO Spray System for Waterproofing Material & Mortar Applications</p>
                                 <p>GRACO FRP Systems, Proportioners and Guns for Gel Coat and Chop Applications</p>
                                 <a href="#" class="button small">Read More</a>
@@ -270,36 +279,35 @@ include_once("db_connect.php");
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         </section>
 
         <section class="statistics">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="statistics--item">
-                    <div class="statistics--item__image"><i class="fa fa-heart-o"></i></div>
+                    <div class="statistics--item__image"><i class="fa fa-users"></i></div>
                     <h3 class="odometer first">0</h3>
                     <h5>Employees</h5>
                 </div>
                 <div class="statistics--item">
-                    <div class="statistics--item__image"><i class="fa fa-tag"></i></div>
+                    <div class="statistics--item__image"><i class="fa fa-building"></i></div>
                     <h3 class="odometer second">0</h3>
-                    <h5>Projects Completed</h5>
+                    <h5>Completed Projects</h5>
                 </div>
                 <div class="statistics--item">
-                    <div class="statistics--item__image"><i class="fa fa-thumbs-o-up"></i></div>
+                    <div class="statistics--item__image"><i class="fa fa-building"></i></div>
                     <h3 class="odometer third">0</h3>
                     <h5>Ongoing Projects</h5>
                 </div>
                 <div class="statistics--item">
-                    <div class="statistics--item__image"><i class="fa fa-star-o"></i></div>
+                    <div class="statistics--item__image"><i class="fa fa-trophy"></i></div>
                     <h3 class="odometer fourth">0</h3>
                     <h5>Awards</h5>
                 </div>
                 <div class="statistics--item">
-                    <div class="statistics--item__image"><i class="fa fa-paperclip"></i></div>
+                    <div class="statistics--item__image"><i class="fa fa-info"></i></div>
                     <h3 class="odometer fifth">0</h3>
-                    <h5>Products</h5>
+                    <h5>Services</h5>
                 </div>
             </div>
         </section>
@@ -373,7 +381,10 @@ include_once("db_connect.php");
         </section> -->
        
     </div>
-    <?php }  ?>
+    <?php //}  ?>
+
+    
+
 
     <!-- testimonials -->
     <div class="container pt-5 pb-5">
