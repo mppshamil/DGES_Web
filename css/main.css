@@ -69,7 +69,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
   text-align: center;
   font-size: 55px;
   line-height: 0;
-  color: #3c88e7;
+  color: #e6b224;
   margin: 20px 0 40px;
   display: block; }
   .dot-dash:before, .dot-dash:after {
@@ -152,7 +152,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     padding-left: 75px; }
     .our-history .col-md-7 h2 {
       font: 600 36px/1 "Source Sans Pro";
-      border-left: 5px solid #3c88e7;
+      border-left: 5px solid #eec719;
       margin: 0 0 40px;
       text-transform: uppercase;
       color: #6a6a6a;
@@ -331,29 +331,33 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
       opacity: 1; }
 
 .case-study {
-  padding: 80px 0;
+  padding: 60px 0;
   text-align: justify;
-  background: #f4f5f9; }
+  background: #363b3a; }
   .case-study h2 {
     font: 600 36px/1 "Source Sans Pro";
     margin: 0 0 20px;
     text-transform: uppercase;
-    color: #6a6a6a; }
+    text-align: center;
+    color: #f5b031; }
   .case-study p {
-    font: 400 16px/25px "Source Sans Pro";
-    margin-bottom: 0; }
+    font: 400 20px/30px "Source Sans Pro";
+    margin-bottom: 0;
+    color: rgb(10, 10, 10);  
+  }
+    
   .case-study--sliders {
     position: relative;
     overflow: hidden;
     display: block;
-    padding: 45px 30px 45px 5px;
+    padding: 2px 30px 45px 5px;
     margin-top: 70px; }
   .case-study--left {
     float: left;
     width: 60%;
     position: relative;
     z-index: 1;
-    background: #ffffff;
+    background: #fcfcfcce;
     padding: 45px 60px;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
@@ -362,8 +366,8 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
       .case-study--left__textslider__image {
         height: 85px;
         width: 85px;
-        background: #3c88e7;
-        color: #ffffff;
+        background: #f1c709;
+        color: #ffffff4f;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -413,7 +417,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
           .case-study--left__dots ul li button:before {
             display: none; }
         .case-study--left__dots ul li.slick-active button {
-          background: #3c88e7; }
+          background: #e6bd07; }
   .case-study--right {
     position: absolute;
     right: 0;
@@ -431,12 +435,13 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
 
 .statistics {
   padding: 140px 0;
-  background-image: url("../assets/img/dges_img/weld.jpg");
+  background-image: url("../assets/img/dges_img/statBack.jpg");
   background-position: center;
   background-attachment: fixed;
   overflow: hidden;
   display: block;
   position: relative; }
+  
   .statistics:before {
     content: "";
     position: absolute;
@@ -444,14 +449,14 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     left: 0;
     width: 100%;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(7, 7, 7, 0.514);
     z-index: 0; }
   .statistics--item {
     position: relative;
     z-index: 1;
     float: left;
     width: 20%;
-    color: #ffffff;
+    color: #ddb810;
     text-align: center; }
     .statistics--item__image {
       display: -webkit-box;
@@ -466,18 +471,20 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
       -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
-      border: 1px solid #ffffff;
+      border: 3px solid #030000f3;
       border-radius: 100px;
-      width: 110px;
-      height: 110px;
+      width: 160px;
+      background-color: #000000a2;
+      height: 160px;
       margin: 0 auto 45px auto;
       font-size: 30px; }
     .statistics--item h3 {
-      font: 600 30px "Source Sans Pro";
+      font: 800 40px;
+      font-family: sans-serif;
       margin: 0 0 15px;
       letter-spacing: 2px; }
     .statistics--item h5 {
-      font: 400 18px "Source Sans Pro"; }
+      font: 600 24px "Source Sans Pro"; }
 
 .our-pricing {
   padding: 140px 0;
@@ -1490,7 +1497,7 @@ Slider
       -ms-flex-pack: center;
       justify-content: center;
       color: #ffd000;
-      background: #f4f5f9;
+      background: #010a2e;
       height: 60px;
       width: 60px;
       border-radius: 50px;
@@ -1554,7 +1561,7 @@ Slider
         right: 50px;
         left: auto; }
       .home-slider--nav div:hover {
-        background: #ffd900;
+        background: #0a0a0a;
         color: #ffffff; }
 
 @media screen and (max-width: 991px) {
@@ -1650,6 +1657,15 @@ Slider
 .intro-page-projects{
   padding: 200px 0 140px;
   background-image: url("../assets/img/dges_img/3.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #3b3838;
+  position: relative;
+}
+
+.projectsPage{
+  padding: 200px 0 140px;
+  background-image: url("../assets/img/pro.jpg");
   background-size: cover;
   background-position: center;
   color: #3b3838;
