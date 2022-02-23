@@ -31,6 +31,7 @@
     <div class="pt-5"></div>
     <div class="wrapper pt-5">
         <div><h1 class="text-center">TOPIC</h1></div>
+        <h2>TEST</h2>
         <article>
             <div class="single-portfolio container-fluid"> 
                 <div class="row">
