@@ -41,7 +41,7 @@ Website
         $('.single-portfolio--slider').slick({
             dots: true,
             infinite: true,
-            speed: 500,
+            speed: 2000,
             autoplay: true,
             slidesToShow: 1,
             slidesToScroll: 1,
