@@ -205,7 +205,20 @@ include_once("db_connect.php");
             ?>
                     <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                         <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                       <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a> 
+
+
+                        <form name="form1" action="services_projects.php" method="get">
+                            <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                            <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                        </form>
+
+
+
+
+
+
+
                     </div>
 
             <?php }
@@ -274,7 +287,17 @@ include_once("db_connect.php");
                 ?>
                         <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                             <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                            <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                            <form name="form1" action="services_projects.php" method="get">
+                                <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                            </form>
+
+
+
+
+
+                            </a>
                         </div>
 
                 <?php }
@@ -342,7 +365,11 @@ include_once("db_connect.php");
                     ?>
                             <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                 <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                <form name="form1" action="services_projects.php" method="get">
+                                    <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                    <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                </form>
                             </div>
 
                     <?php }
@@ -410,7 +437,11 @@ include_once("db_connect.php");
                         ?>
                                 <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                     <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                    <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                    <form name="form1" action="services_projects.php" method="get">
+                                        <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                        <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                    </form>
                                 </div>
 
                         <?php }
@@ -478,7 +509,11 @@ include_once("db_connect.php");
                             ?>
                                     <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                         <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                        <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                        <form name="form1" action="services_projects.php" method="get">
+                                            <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                            <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                        </form>
                                     </div>
 
                             <?php }
@@ -542,7 +577,11 @@ include_once("db_connect.php");
                                 ?>
                                         <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                             <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                            <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                            <form name="form1" action="services_projects.php" method="get">
+                                                <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                                <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                            </form>
                                         </div>
 
                                 <?php }
@@ -610,7 +649,11 @@ include_once("db_connect.php");
                                     ?>
                                             <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                                 <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                                <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                                <form name="form1" action="services_projects.php" method="get">
+                                                    <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                                    <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                                </form>
                                             </div>
 
                                     <?php }
@@ -678,7 +721,11 @@ include_once("db_connect.php");
                                         ?>
                                                 <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                                     <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                                    <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                                    <form name="form1" action="services_projects.php" method="get">
+                                                        <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                                        <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                                    </form>
                                                 </div>
 
                                         <?php }
@@ -747,7 +794,11 @@ include_once("db_connect.php");
                                             ?>
                                                     <div class="col-md-4 col-sm-4 col-xs-4" data-aos="fade-up" data-aos-delay="300">
                                                         <h5 class="text-center"><?php echo $record['SubService'];  ?></h5>
-                                                        <a href="services_projects.php"><img src="<?php echo $record['CoverImage'];  ?>" alt="" /></a>
+                                                        <form name="form1" action="services_projects.php" method="get">
+                                                            <input type="hidden" name="Serv" value="<?php echo $record['ID']; ?>">
+                                                            <input type="image" src="<?php echo $record['CoverImage'];  ?>" style="width: 350px;" alt="Submit">
+
+                                                        </form>
                                                     </div>
 
                                             <?php }
