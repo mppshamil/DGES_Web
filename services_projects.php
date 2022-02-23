@@ -26,58 +26,38 @@
             include('components/navbar.php');
         ?>
     </div>
+
+    <div class="pt-5"></div>
     <div class="pt-5"></div>
     <div class="wrapper pt-5">
+        <div><h1 class="text-center">TOPIC</h1></div>
         <article>
-            <div class="container-fluid">
-
+            <div class="single-portfolio container-fluid"> 
                 <div class="row">
-                    <div class="col">
-                        <div class="single-portfolio">
-                             <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="single-portfolio--slider">
-                                <div>
-                                    <img src="assets/img/projects/fabrication.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="assets/img/projects/generalInfra.jpg" alt=""> 
-                                </div>
-                                <div>
-                                    <img src="assets/img/projects/piping.jpg" alt="">
-                                </div>
+                    <div class="col-md-6">
+                        <div class="single-portfolio--slider">
+                            <div>
+                                <img src="assets/img/projects/fabrication.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/img/projects/generalInfra.jpg" alt=""> 
+                            </div>
+                            <div>
+                                <img src="assets/img/projects/piping.jpg" alt="">
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-md-6">
-                            <h2>Project Name </h2>
-                            <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. </p>
-                            <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.</p>
-                            
-                            <!-- <ul>
-                                <li>
-                                   <h5><span>Project Type</span></h5>
-                                    Web Development, 
-                                </li>
-                                <li>
-                                   <h5><span>Project Type</span></h5>
-                                    Web Development
-                                </li>
-                                <li>
-                                   <h5><span>Technologies</span></h5>
-                                    Web Development
-                                </li>
-                            </ul> -->
-                            <!-- <a href="#" class="button">Read More</a> -->
-                        </div>
+                    <div class="col-md-6">
+                        <h2>Project Name </h2>
+                        <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. </p>
+                        <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.</p>
+                    
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     </div>
-</article>
-</div>
 
 <!-- footer -->
 <?php 
