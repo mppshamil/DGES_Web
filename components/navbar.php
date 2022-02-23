@@ -16,13 +16,12 @@
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="about.php">History</a>
-                                <a class="dropdown-item" href="#">Vision, Mission and Policies</a>
-                                <a class="dropdown-item" href="#">Awards</a>
-                                <a class="dropdown-item" href="#">Corperate Informations</a>
-                                <a class="dropdown-item" href="directors.php">Directors Profile</a>
-                                <a class="dropdown-item" href="managementTeam.php">Management Team</a>
-                                <a class="dropdown-item" href="#">Certifications</a>
+                                <a class="dropdown-item" href="aboutus.php #visionmission">Vision, Mission and Policies</a>
+                                <a class="dropdown-item" href="aboutus.php #awards">Our History</a>
+                                <a class="dropdown-item" href="aboutus.php #history">Awards & Certifications</a>
+                                <a class="dropdown-item" href="aboutus.php #qualityPolicy">Quality Policies</a>
+                                <a class="dropdown-item" href="aboutus.php #directors">Directors Profile</a>
+                                <a class="dropdown-item" href="aboutus.php #intropageManagementT">Management Team</a>
                             </div>
                         </li>
 
