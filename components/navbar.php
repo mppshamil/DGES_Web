@@ -23,7 +23,6 @@
                                 <a class="dropdown-item" href="directors.php">Directors Profile</a>
                                 <a class="dropdown-item" href="managementTeam.php">Management Team</a>
                                 <a class="dropdown-item" href="#">Certifications</a>
-                                <a class="dropdown-item" href="#">Awards</a>
                             </div>
                         </li>
 
