@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿
+<?php
+include_once("db_connect.php");
+?>
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title></title>
@@ -36,10 +42,37 @@
     <div class="projectsPage">
         <div class="container">
             <h1 style="color: gold;">COMPLETED PROJECTS</h1>
-            <!-- <p style="color: gold;">Completed Projects</p> -->
+            <!-- <p style="color: gold;">Ongoing Projects</p> -->
             <!-- <p>This is the Test Navigation Page</p> -->
         </div>
     </div>
+
+    <?php
+
+    $sql = "SELECT * FROM tbl_projects where ProjectStatus='Completed' ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
+    $count = mysqli_num_rows($resultset);
+
+    if ($count == 0) {
+        echo "<br><br><br><br><br><br><br><br><center><h4>There are no completed projects.</h4></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
+    } else {
+
+
+
+        $k = 0;
+        while ($record = mysqli_fetch_assoc($resultset)) {
+            if ($k == 0) {
+                // echo "<h1>No vacancies</h1>";
+            }
+            if ($k % 1 == 0) {
+                // echo "</div>";
+                echo "<br>";
+                // echo "<div class='row'>";
+
+            }
+            $k++;
+    ?>
+
 
     <div class="wrapper">
         <article>
@@ -53,93 +86,63 @@
                         <div class="col-md-6">
                             <div class="single-portfolio--slider">
                                 <div>
-                                    <img src="assets/img/projects/fabrication.jpg" alt="">
+                                    <img src="  <?php echo $record['Image1'];  ?>" alt="">
                                 </div>
                                 <div>
-                                    <img src="assets/img/projects/generalInfra.jpg" alt=""> 
+                                    <img src="  <?php echo $record['Image2'];  ?>" alt=""> 
                                 </div>
                                 <div>
-                                    <img src="assets/img/projects/piping.jpg" alt="">
+                                    <img src="  <?php echo $record['Image3'];  ?>" alt="">
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <h2>Project Name </h2>
-                            <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. </p>
+                            <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                            <p> <?php echo $record['ProjectDescription'];  ?></p>
                             <ul>
                                 <li>
-                                   <h5><span>Project Type</span></h5>
-                                    Web Development, 
+                                   <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                   <?php echo $record['subDescription1'];  ?>
                                 </li>
                                 <li>
-                                   <h5><span>Project Type</span></h5>
-                                    Web Development
+                                   <h5><span><?php echo $record['subTopic2'];  ?></span></h5>
+                                   <?php echo $record['subDescription2'];  ?>
                                 </li>
-                                <li>
-                                   <h5><span>Technologies</span></h5>
-                                    Web Development
-                                </li>
+                               
                             </ul>
                             <!-- <a href="#" class="button">Read More</a> -->
                         </div>
                     </div>
                 </div>
 
-                <div class="row pt-5">
-                    <div class="col">
-                        <div class="single-portfolio">
-                        <div class="row">
-                        <div class="col-md-6">
-                            <div class="single-portfolio--slider">
-                                <div>
-                                    <img src="assets/img/projects/fabrication.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="assets/img/projects/generalInfra.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="assets/img/projects/piping.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Project Name </h2>
-                            <p>Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry.. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. Project Name m is simply dummy text of the printing and typesetting industry. </p>
-                            <ul>
-                                <li>
-                                   <h5><span>Project Type</span></h5>
-                                    Web Development, 
-                                </li>
-                                <li>
-                                   <h5><span>Project Type</span></h5>
-                                    Web Development
-                                </li>
-                                <li>
-                                   <h5><span>Technologies</span></h5>
-                                    Web Development
-                                </li>
-                            </ul>
-                            <!-- <a href="#" class="button">Read More</a> -->
-                        </div>
-                    </div>
                 </div>
-            </div>
         </div>
     </div>
 </article>
 </div>
 
+
+                <?php }
+        if ($k % 1 != 0) {
+
+            echo "<br>";
+        }
+    } ?>
+
+
+
+
+
+
+
+
+     
+
 <!-- footer -->
 <?php 
         include('components/footer.php');
 ?>
-
-    
-
-
-
-
 
     <!-- <script type="text/javascript">
         window.odometerOptions = {
