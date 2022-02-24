@@ -1,3 +1,9 @@
+<?php
+include_once("db_connect.php");
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,8 +48,15 @@
     ?>
 </div>
 
+<?php
+    $sql = "SELECT * FROM tbl_header_Image where pageCat='aboutus' ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
 
-<div class="intropageServices" style="background-image: url('assets/img/dges_img/visionmision.jpg');">
+    while ($record = mysqli_fetch_assoc($resultset)) {
+    ?>
+
+        <div class="intropageServices" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <?php } ?>
     <div data-aos="fade-up" class="container">
         <h1 style="color: orange; width: 50%;">ABOUT US</h1>
         <h5 class="text-light">We are 40 years old and what is depicted in these pages will amply illustrate that we have been very busy.</h5>

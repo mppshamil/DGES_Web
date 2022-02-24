@@ -55,8 +55,15 @@ include_once("db_connect.php");
         include('components/navbar.php');
         ?>
     </div>
+    <?php
+    $sql = "SELECT * FROM tbl_header_Image where pageCat='services' ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
 
-    <div class="intro-page">
+    while ($record = mysqli_fetch_assoc($resultset)) {
+    ?>
+
+        <div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <?php } ?>
         <div data-aos="fade-up" class="container">
             <h1 style="color: white; width: 50%;">DGES Careers</h1>
             <p class="text-light">We are 40 years old and what is depicted in these pages will amply illustrate that we have been very busy.</p>

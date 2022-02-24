@@ -38,8 +38,15 @@ include_once("db_connect.php");
             include('components/navbar.php');
         ?>
     </div>
+    <?php
+    $sql = "SELECT * FROM tbl_header_Image where pageCat='services' ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
 
-    <div class="projectsPage">
+    while ($record = mysqli_fetch_assoc($resultset)) {
+    ?>
+
+        <div class="projectsPage" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <?php } ?>
         <div class="container">
             <h1 style="color: gold;">ONGOING PROJECTS</h1>
             <!-- <p style="color: gold;">Ongoing Projects</p> -->

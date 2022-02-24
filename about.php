@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<?php
+include_once("db_connect.php");
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>About Us</title>
@@ -34,8 +37,15 @@
     ?>
 
 </div>
+<?php
+    $sql = "SELECT * FROM tbl_header_Image where pageCat='services' ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
 
-   <div class="intro-page">
+    while ($record = mysqli_fetch_assoc($resultset)) {
+    ?>
+
+        <div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <?php } ?>
        <div class="container">
            <h1 style="color: white;">About Us</h1>
            <p>This is the Test Navigation Page</p>
