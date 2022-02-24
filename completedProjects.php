@@ -63,7 +63,7 @@ include_once("db_connect.php");
         while ($record = mysqli_fetch_assoc($resultset)) {
             if ($k == 0) {
                 // echo "<h1>No vacancies</h1>";
-            }
+            }   
             if ($k % 1 == 0) {
                 // echo "</div>";
                 echo "<br>";
