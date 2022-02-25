@@ -123,11 +123,20 @@ include_once("db_connect.php");
     // while( $record = mysqli_fetch_assoc($resultset)) {
     ?>
                
-    
+               <?php
+    $sql = "SELECT * FROM tbl_home_page  ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
+
+    while ($record = mysqli_fetch_assoc($resultset)) {
+    ?>
+
+        
     <div class="home-slider">
         <div class="home-slider--wrapper" style="margin-top: -45px;">
             <div>
-                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home1.jpg') ;float: left;width: 100%;">
+                <!-- <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home1.jpg') ;float: left;width: 100%;"> -->
+                <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide1'];  ?>') ;float: left;width: 100%;">
+
                     <div class="container" >
                         <h3></h3>
                         <h2  data-aos="fade-up">Welcome To Dockyard General Engineering Services</h2>
@@ -141,7 +150,10 @@ include_once("db_connect.php");
                 </div>
             </div>
             <div>
-                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home2.jpg');">
+            <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide2'];  ?>');">
+
+                <!-- <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home2.jpg');"> -->
+               
                     <div class="container">
                         <h3>Our clients are our first priority</h3>
                         <h2>Welcome To Dockyard General Engineering Services</h2>
@@ -155,7 +167,10 @@ include_once("db_connect.php");
                 </div>
             </div>
             <div>
-                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home3.jpg');">
+            <!-- <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home3.jpg');"> -->
+
+                <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide3'];  ?>');">
+            
                     <div class="container">
                         <h3>Our clients are our first priority</h3>
                         <h2>Welcome To Dockyard General Engineering Services</h2>
@@ -221,7 +236,7 @@ include_once("db_connect.php");
                         <p class="text-justify" >We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course. 
                         We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.
                         </p>
-                        <a href="#" class="button">More Info</a>
+                        <a href="aboutus.php" class="button">More Info</a>
                     </div>
                 </div>
             </div>
@@ -241,26 +256,18 @@ include_once("db_connect.php");
                         <div class="case-study--left__textslider" >
                             <div>
                                 <!-- <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div> -->
-                                <h3 class="text-center">KEMPPI</h3>
-                                <p class="text-dark">We, Dockyard General Engineering Services (Pvt) Ltd are the local agent for KEMPPI in Sri Lanka and provide KEMPPI Inverter Welding Plant & Equipment for Arc / Stick Welding / MMA, MIG / MAG Welding and TIG Welding for Marine, Industrial and heavy engineering work.</p>
-                                <p>If you are looking for welding machine for High quality work without wasting for rework KEMPPI is the right product to choose. KEMPPI is in built with many special features giving you a lot of advantages and value for money.</p>
-                                <p>If you are looking for welding machine for High quality work without wasting for rework KEMPPI is the right product to choose. KEMPPI is in built with many special features giving you a lot of advantages and value for money.</p>
-                                <a href="#" class="button small">Read More</a>
+                                <h3 class="text-center"><?php echo $record['productName1'];  ?></h3>
+                                <p class="text-dark"><?php echo $record['productDes1'];  ?></p>
                             </div>
                             <div>
                                 <!-- <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div> -->
-                                <h3 class="text-center">SIGMA</h3>
-                                <p>We, Dockyard General Engineering Services have been the local agent / distributor for PPG SIGMA Protective & Marine Coatings since 1997.   With the partnership of PPG / SIGMA, we have set new heights in corrosion control and asset protection in Sri Lanka where Industry people were identified has lack of knowledge on the subject. We have taken a leading role on corrosion control conducting free training programs for all concerned including engineers, consultants, architects, quantity surveys, contractors, painters, fabricators and so on since 2000. We have been able to upgrade and March from the available Market Knowledge and upgrade with the Local requirements and International norms and this has benefitted Levels such as Consultants, Engineering professionals, specially Contractors etc to propose the solutions after evaluating the Right environment category ranging from and also to establish the Required durability Range and turn around to finally save High Cost of Corrosion in Many projects.</p>
-                                <a href="#" class="button small">Read More</a>
+                                <h3 class="text-center"><?php echo $record['productName2'];  ?></h3>
+                                <p class="text-dark"><?php echo $record['productDes2'];  ?></p>
                             </div>
                             <div>
                                 <!-- <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div> -->
-                                <h3 class="text-center">GRACO</h3>
-                                <p>We, Dockyard General Engineering Services (Pvt) Ltd are the local agent for GRACO in Sri Lanka and provide sales,  technical support and after sales services for following GRACO Products and Systems.</p>
-                                <p> GRACO Airless Sprayers for High Performance Coating Applications</p>
-                                <p>GRACO Spray System for Waterproofing Material & Mortar Applications</p>
-                                <p>GRACO FRP Systems, Proportioners and Guns for Gel Coat and Chop Applications</p>
-                                <a href="#" class="button small">Read More</a>
+                                <h3 class="text-center"><?php echo $record['productName3'];  ?></h3>
+                                <p class="text-dark"><?php echo $record['productDes3'];  ?></p>
                             </div>
                         </div>
                         <div class="case-study--left__dots"></div>
@@ -268,13 +275,13 @@ include_once("db_connect.php");
                     <div class="case-study--right" data-aos="fade-left" data-aos-delay="400">
                         <div class="case-study--right__imageslider">
                             <div>
-                                <img src="assets/img/dges_img/kempi.png" alt="" />
+                                <img src="<?php echo $record['productImg1'];  ?>" alt="" />
                             </div>
                             <div>
-                                <img src="assets/img/dges_img/sigma.png" alt="" />
+                                <img src="<?php echo $record['productImg2'];  ?>" alt="" />
                             </div>
                             <div>
-                                <img src="assets/img/dges_img/gracohome.png" alt="" />
+                                <img src="<?php echo $record['productImg3'];  ?>" alt="" />
                             </div>
                         </div>
                     </div>
@@ -286,32 +293,32 @@ include_once("db_connect.php");
             <div class="container-fluid">
                 <div class="statistics--item">
                     <div class="statistics--item__image"><i class="fa fa-users"></i></div>
-                    <h3 class="odometer first">0</h3>
+                    <h3 class="odometer first1"><?php echo $record['employeeCount'];  ?></h3>
                     <h5>Employees</h5>
                 </div>
                 <div class="statistics--item">
                     <div class="statistics--item__image"><i class="fa fa-building"></i></div>
-                    <h3 class="odometer second">0</h3>
+                    <h3 class="odometer second1"><?php echo $record['projectsCompleted'];  ?></h3>
                     <h5>Completed Projects</h5>
                 </div>
                 <div class="statistics--item">
                     <div class="statistics--item__image"><i class="fa fa-building"></i></div>
-                    <h3 class="odometer third">0</h3>
+                    <h3 class="odometer third1"><?php echo $record['OngoingProjects'];  ?></h3>
                     <h5>Ongoing Projects</h5>
                 </div>
                 <div class="statistics--item">
                     <div class="statistics--item__image"><i class="fa fa-trophy"></i></div>
-                    <h3 class="odometer fourth">0</h3>
+                    <h3 class="odometer fourth1"><?php echo $record['Awards'];  ?></h3>
                     <h5>Awards</h5>
                 </div>
                 <div class="statistics--item">
                     <div class="statistics--item__image"><i class="fa fa-info"></i></div>
-                    <h3 class="odometer fifth">0</h3>
+                    <h3 class="odometer fifth1"><?php echo $record['Products'];  ?></h3>
                     <h5>Services</h5>
                 </div>
             </div>
         </section>
-
+        <?php } ?>
         <!-- <section class="partners">
             <div class="container">
                 <h2>Great Integrations with Others</h2>
@@ -411,15 +418,7 @@ include_once("db_connect.php");
                                                 <div class="overview">
                                                     <div class="name"><b>Paula Wilson</b></div>
                                                     <div class="details">Media Analyst / SkyNet</div>
-                                                    <div class="star-rating">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                                        </ul>
-                                                    </div>
+                                                  
                                                 </div>										
                                             </div>
                                         </div>
