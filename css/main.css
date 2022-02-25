@@ -805,11 +805,12 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
           transform: translateX(5px); }
 
 .keep-touch {
-  padding: 140px 0;
+  padding: 30px 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: #f4f5f9; }
+  /* background: #e6e7eb;  */
+}
   .keep-touch h2 {
     font: 600 36px/1 "Source Sans Pro";
     margin: 0 0 20px;
@@ -819,13 +820,13 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     font: 400 14px/25px "Source Sans Pro";
     margin-bottom: 0; }
   .keep-touch--white {
-    background: #ffffff;
+    background: #e9c80ed2;
     -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
     box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
     padding: 100px;
     text-align: left;
     height: 100%;
-    border-radius: 4px; }
+    border-radius: 5px; }
     .keep-touch--white h4 {
       font: 700 24px/1 "Source Sans Pro";
       margin: 0 0 30px;
@@ -1620,6 +1621,15 @@ Slider
   .completed_pro{
     background-image: url("../assets/img/dges_img/comPro1.jpg");
     padding: 200px 0 140px;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    position: relative;
+  }
+
+  .contactus{
+    background-image: url("../assets/img/dges_img/contactus.jpg");
+    padding: 250px 0 140px;
     background-size: cover;
     background-position: center;
     color: #ffffff;
