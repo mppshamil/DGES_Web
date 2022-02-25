@@ -46,7 +46,7 @@
                                 <a class="dropdown-item" href="#">Auto Paint</a>
                                 <a class="dropdown-item" href="productsKemppi.php">KEMPPI</a>   
                                 <a class="dropdown-item" href="productsGarco.php">Graco Equipment</a>
-                                <a class="dropdown-item" href="#">Ecoquip</a>
+                                <a class="dropdown-item" href="ecoquip.php">Ecoquip</a>
                                 <!-- <a class="dropdown-item" href="#">Something else here</a>
                                 <a class="dropdown-item" href="#">Another action</a> -->
                             </div>

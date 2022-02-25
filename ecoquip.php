@@ -48,12 +48,15 @@
             <div class="container">
                 <div class="row">
                     <div  class="col-md-6"  data-aos="fade-up">
-                        <h2 class="font-weight-bold">SIGMA</h2>
-                        <p class="text-justify">We, Dockyard General Engineering Services have been the local agent / distributor for PPG SIGMA Protective & Marine Coatings since 1997.   With the partnership of PPG / SIGMA, we have set new heights in corrosion control and asset protection in Sri Lanka where Industry people were identified has lack of knowledge on the subject. We have taken a leading role on corrosion control conducting free training programs for all concerned including engineers, consultants, architects, quantity surveys, contractors, painters, fabricators and so on since 2000. We have been able to upgrade and March from the available Market Knowledge and upgrade with the Local requirements and International norms and this has benefitted Levels such as Consultants, Engineering professionals, specially Contractors etc to propose the solutions after evaluating the Right environment category ranging from and also to establish the Required durability Range and turn around to finally save High Cost of Corrosion in Many projects.
+                        <h2 class="font-weight-bold">ECOQUIP</h2>
+                        <p class="text-justify">We, Dockyard General Engineering Services (Pvt) Ltd are the local agent for GRACO ECOQUIP in Sri Lanka and providing sales, technical support and after sales services for EcoQuip Vapour Abrasive Blasting Systems.
+                            <br>
+                            <p class="text-justify">Through countless hours of research, engineering and testing, Graco has made an abrasive blast system faster than dry blasting, easier to use, and more reliable in the field.
+                                With increased blast pressures, a new ventless pot and simplified controls, Graco is confident that EcoQuip2 will change the way you think about vapor abrasive blasting. </p>
                         </p>
                     </div>
                     <div class="col-md-6 pt-4" data-aos="fade-right">
-                        <img src="assets/img/products/sigma.jpg" alt="" />
+                        <img src="assets/img/products/ECOQUIP.jpg" alt="" />
                     </div>
                     
                 </div>
