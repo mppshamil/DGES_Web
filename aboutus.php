@@ -49,7 +49,7 @@ include_once("db_connect.php");
 </div>
 
 <?php
-    $sql = "SELECT * FROM tbl_header_Image where pageCat='aboutus' ";
+    $sql = "SELECT * FROM tbl_header_image where pageCat='aboutus' ";
     $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
 
     while ($record = mysqli_fetch_assoc($resultset)) {
