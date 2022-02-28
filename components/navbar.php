@@ -16,27 +16,27 @@
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="aboutus.php #visionmission">Vision, Mission and Policies</a>
-                                <a class="dropdown-item" href="aboutus.php #awards">Our History</a>
-                                <a class="dropdown-item" href="aboutus.php #history">Awards & Certifications</a>
-                                <a class="dropdown-item" href="aboutus.php #qualityPolicy">Quality Policies</a>
-                                <a class="dropdown-item" href="aboutus.php #directors">Directors Profile</a>
-                                <a class="dropdown-item" href="aboutus.php #intropageManagementT">Management Team</a>
+                                <a class="dropdown-item" href="aboutus.php#visionmission">Vision, Mission and Policies</a>
+                                <a class="dropdown-item" href="aboutus.php#awards">Our History</a>
+                                <a class="dropdown-item" href="aboutus.php#history">Awards & Certifications</a>
+                                <a class="dropdown-item" href="aboutus.php#qualityPolicy">Quality Policies</a>
+                                <a class="dropdown-item" href="aboutus.php#directors">Directors Profile</a>
+                                <a class="dropdown-item" href="aboutus.php#intropageManagementT">Management Team</a>
                             </div>
                         </li>
 
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.php" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="services.php #GeneralInfrastructure">General Infrastructure</a>
-                                <a class="dropdown-item" href="services.php #Irrigation">Irrigation</a>
-                                <a class="dropdown-item" href="services.php #PetroChemical">Petrochemical</a>
-                                <a class="dropdown-item" href="services.php #PowerandEnergy">Power and Energy</a>
-                                <a class="dropdown-item" href="services.php #LandWater">Land/ Water Based Carriages</a>
-                                <a class="dropdown-item" href="services.php #HeavyStructures">Heavy Structures</a>
-                                <a class="dropdown-item" href="services.php #SlopeStablization">Slope Stablization</a>
-                                <a class="dropdown-item" href="services.php #ConcreteStructure">Concrete Structure Restoration</a>
-                                <a class="dropdown-item" href="services.php #SpecializedEngineering">Specialized Engineering</a>
+                                <a class="dropdown-item" href="services.php#GeneralInfrastructure">General Infrastructure</a>
+                                <a class="dropdown-item" href="services.php#Irrigation">Irrigation</a>
+                                <a class="dropdown-item" href="services.php#PetroChemical">Petrochemical</a>
+                                <a class="dropdown-item" href="services.php#PowerandEnergy">Power and Energy</a>
+                                <a class="dropdown-item" href="services.php#LandWater">Land/ Water Based Carriages</a>
+                                <a class="dropdown-item" href="services.php#HeavyStructures">Heavy Structures</a>
+                                <a class="dropdown-item" href="services.php#SlopeStablization">Slope Stablization</a>
+                                <a class="dropdown-item" href="services.php#ConcreteStructure">Concrete Structure Restoration</a>
+                                <a class="dropdown-item" href="services.php#SpecializedEngineering">Specialized Engineering</a>
                             </div>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">

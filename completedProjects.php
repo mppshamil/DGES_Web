@@ -39,7 +39,15 @@ include_once("db_connect.php");
         ?>
     </div>
 
-    <div class="projectsPage">
+    <?php
+    $sql = "SELECT * FROM tbl_header_image where pageCat='services' ";
+    $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
+
+    while ($record = mysqli_fetch_assoc($resultset)) {
+    ?>
+
+        <div class="projectsPage" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <?php } ?>
         <div class="container">
             <h1 style="color: gold;">COMPLETED PROJECTS</h1>
             <!-- <p style="color: gold;">Ongoing Projects</p> -->
@@ -63,7 +71,7 @@ include_once("db_connect.php");
         while ($record = mysqli_fetch_assoc($resultset)) {
             if ($k == 0) {
                 // echo "<h1>No vacancies</h1>";
-            }
+            }   
             if ($k % 1 == 0) {
                 // echo "</div>";
                 echo "<br>";
