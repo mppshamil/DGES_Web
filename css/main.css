@@ -817,7 +817,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     font: 400 14px/25px "Source Sans Pro";
     margin-bottom: 0; }
   .keep-touch--white {
-    background: #e9c80ed2;
+    background: #facc00;
     -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
     box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
     padding: 50px;
@@ -827,7 +827,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     .keep-touch--white h4 {
       font: 700 26px/1 "Source Sans Pro";
       
-      color: #f3be0e; }
+      color: #facc00; }
     .keep-touch--white p {
       font: 400 18px "Open Sans";
       margin: 0 0 10px; }
