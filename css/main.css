@@ -805,15 +805,12 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
           transform: translateX(5px); }
 
 .keep-touch {
-  padding: 30px 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  
   /* background: #e6e7eb;  */
 }
   .keep-touch h2 {
     font: 600 36px/1 "Source Sans Pro";
-    margin: 0 0 20px;
+    /* margin: 0 0 20px; */
     text-transform: uppercase;
     color: #6a6a6a; }
   .keep-touch p {
@@ -823,17 +820,17 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     background: #e9c80ed2;
     -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
     box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
-    padding: 100px;
+    padding: 50px;
     text-align: left;
     height: 100%;
     border-radius: 5px; }
     .keep-touch--white h4 {
-      font: 700 24px/1 "Source Sans Pro";
-      margin: 0 0 30px;
-      color: #3c88e7; }
+      font: 700 26px/1 "Source Sans Pro";
+      
+      color: #f3be0e; }
     .keep-touch--white p {
       font: 400 18px "Open Sans";
-      margin: 0 0 70px; }
+      margin: 0 0 10px; }
       .keep-touch--white p:last-child {
         margin-bottom: 0; }
       .keep-touch--white p a {
