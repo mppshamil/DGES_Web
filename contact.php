@@ -109,6 +109,11 @@
                     <li><p class="fa fa-phone">   Phone: 0773871551</p></li>
                     <li><p class="fa fa-envelope">  Email : Gihanb@dges.lk</p> </li>
                 </ul>
+                <ul class="pt-3 text-center">
+                    <h4 class="text-center" >Engineer Manager (Civil)- Mr Kolitha Lakpriya</h4>
+                    <li><p class="fa fa-phone">   Phone: 0766541341</p></li>
+                    <li><p class="fa fa-envelope">  Email : Kolitha@dges.lk</p> </li>
+                </ul>
             </div>
             
             <div class="col-md-6">
