@@ -45,7 +45,8 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="projectsPage" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <!-- <div class="projectsPage" style="background-image: url('<?php echo $record['imagepath'];  ?>');"> -->
+        <div class="projectsPage" style="background-image: url('assets/img/blog1.png');">
         <?php } ?>
         <div class="container">
             <h1 style="color: gold;">ONGOING PROJECTS</h1>
@@ -80,55 +81,113 @@ include_once("db_connect.php");
             $k++;
     ?>
 
-
-    <div class="wrapper">
-        <article>
-            <div class="container-fluid">
+        <div class="wrapper">
+            <div class="">
 
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
-                             <div class="row">
 
-                        <div class="col-md-6">
-                            <div class="single-portfolio--slider">
-                                <div>
-                                    <img src="  <?php echo $record['Image1'];  ?>" alt="">
+                            <h1 class="text-center pb-4 pt-4">MECHANICAL PROJECTS (Ongoing)</h1>
+                            
+
+                            <!-- 1 -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/ongoing/Castlerigh Gates/WhatsApp Image 2022-02-25 at 1.51.44 PM (1).jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/MechanicalProjects/ongoing/Castlerigh Gates/WhatsApp Image 2022-02-25 at 1.51.44 PM (2).jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/ongoing/Castlerigh Gates/WhatsApp Image 2022-02-25 at 1.51.44 PM.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <img src="  <?php echo $record['Image2'];  ?>" alt=""> 
+                                <div class="col-md-6" style="padding-top: 160px;">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2>Castlerigh Gates</h2>
+                                    <h5><span>FABRICATION OF STEEL COMPONENTS OF PENUMATICALLY OPERATED SELF REGULATED WATER CONTROLLING CREST GATES</span></h5>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client: CEYLON ELECTRICITY BOARD- LAKXAPANA</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2022
+                                        </span></h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
                                 </div>
-                                <div>
-                                    <img src="  <?php echo $record['Image3'];  ?>" alt="">
-                                </div>
+
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <h2> <?php echo $record['ProjectName'];  ?> </h2>
-                            <p> <?php echo $record['ProjectDescription'];  ?></p>
-                            <ul>
-                                <li>
-                                   <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
-                                   <?php echo $record['subDescription1'];  ?>
-                                </li>
-                                <li>
-                                   <h5><span><?php echo $record['subTopic2'];  ?></span></h5>
-                                   <?php echo $record['subDescription2'];  ?>
-                                </li>
-                               
-                            </ul>
-                            <!-- <a href="#" class="button">Read More</a> -->
+                            <!-- 2 -->
+                            <div class="row">
+
+                                <div class="col-md-6" style="padding-top: 160px;">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2>Canion</h2>
+                                    <h5><span>SAND BLASTING AND PAINTING OF INTERIOR SURFACE OF PENSTOCK AND TUNNEL AT CANNYON</span></h5>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client: CEYLON ELECTRICITY BOARD- LAKXAPANA</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2022
+                                        </span></h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/ongoing/Canion/WhatsApp Image 2022-02-15 at 9.47.39 PM (1).jpeg" alt="">
+                                        </div>
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                </div>
-        </div>
-    </div>
-</article>
-</div>
 
+            </div>
+        </div>
 
                 <?php }
         if ($k % 1 != 0) {
