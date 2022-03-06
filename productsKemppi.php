@@ -46,13 +46,13 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="intro-page-career" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+<div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
 
 
         <div class="container">
 
-            <h1 style="">PRODUCTS</h1>
+            <h1 style="color:white">PRODUCTS</h1>
             <!-- <p>This is the Test Navigation Page</p> -->
         </div>
         </div>

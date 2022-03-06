@@ -44,9 +44,9 @@
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="productsMarinep.php">Marine Paints</a>
                                 <a class="dropdown-item" href="#">Auto Paint</a>
-                                <a class="dropdown-item" href="productsKemppi.php">KEMPPI</a>   
-                                <a class="dropdown-item" href="productsGarco.php">Graco Equipment</a>
-                                <a class="dropdown-item" href="ecoquip.php">Ecoquip</a>
+                                <a class="dropdown-item" href="productsKemppi.php">KEMPPI Welding Machines</a>                               
+                                <a class="dropdown-item" href="productsGarco.php">Graco Spray Equipments</a>
+                                <a class="dropdown-item" href="ecoquip.php">Graco Ecoquip</a>
                                 <!-- <a class="dropdown-item" href="#">Something else here</a>
                                 <a class="dropdown-item" href="#">Another action</a> -->
                             </div>
@@ -64,7 +64,7 @@
                             <a class="nav-link" href="careers.php">CAREERS</a>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link" href="#">NEWS</a>
+                            <a class="nav-link" href="news.php">NEWS</a>
                         </li>
                             <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link" href="contact.php">CONTACT</a>
