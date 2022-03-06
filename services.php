@@ -45,7 +45,7 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="intropageServices" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+<div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
         <div data-aos="fade-up" class="container">
             <h1 style="color: orange; width: 50%;">OUR SERVICES</h1>

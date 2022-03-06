@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 4.8.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 26, 2022 at 01:52 AM
--- Server version: 10.4.20-MariaDB
--- PHP Version: 8.0.9
+-- Generation Time: Mar 06, 2022 at 07:18 AM
+-- Server version: 10.1.33-MariaDB
+-- PHP Version: 7.2.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -20,30 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `dges`
 --
-CREATE DATABASE IF NOT EXISTS `dges` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS `dges` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE `dges`;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_admin_mgt`
---
-
-DROP TABLE IF EXISTS `tbl_admin_mgt`;
-CREATE TABLE `tbl_admin_mgt` (
-  `ID` int(11) NOT NULL,
-  `Name` varchar(30) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `password` varchar(30) NOT NULL,
-  `created_date` date NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `tbl_admin_mgt`
---
-
-INSERT INTO `tbl_admin_mgt` (`ID`, `Name`, `email`, `password`, `created_date`) VALUES
-(1, 'DTS Admin', 'dts@dges.lk', 'admin@123', '2022-01-18');
 
 -- --------------------------------------------------------
 
@@ -423,12 +402,6 @@ INSERT INTO `tbl_vacancy_insert` (`ID`, `VacancyName`, `VacDescription`, `ImageP
 --
 
 --
--- Indexes for table `tbl_admin_mgt`
---
-ALTER TABLE `tbl_admin_mgt`
-  ADD PRIMARY KEY (`ID`,`email`);
-
---
 -- Indexes for table `tbl_career_login`
 --
 ALTER TABLE `tbl_career_login`
@@ -505,88 +478,6 @@ ALTER TABLE `tbl_testimonial`
 --
 ALTER TABLE `tbl_vacancy_insert`
   ADD PRIMARY KEY (`ID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `tbl_admin_mgt`
---
-ALTER TABLE `tbl_admin_mgt`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `tbl_career_maindetails`
---
-ALTER TABLE `tbl_career_maindetails`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
-
---
--- AUTO_INCREMENT for table `tbl_career_qualifications`
---
-ALTER TABLE `tbl_career_qualifications`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-
---
--- AUTO_INCREMENT for table `tbl_career_referees`
---
-ALTER TABLE `tbl_career_referees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT for table `tbl_career_upload`
---
-ALTER TABLE `tbl_career_upload`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `tbl_header_image`
---
-ALTER TABLE `tbl_header_image`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `tbl_home_page`
---
-ALTER TABLE `tbl_home_page`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `tbl_kempiproducts`
---
-ALTER TABLE `tbl_kempiproducts`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT for table `tbl_projects`
---
-ALTER TABLE `tbl_projects`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `tbl_service_details`
---
-ALTER TABLE `tbl_service_details`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT for table `tbl_service_menu`
---
-ALTER TABLE `tbl_service_menu`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT for table `tbl_testimonial`
---
-ALTER TABLE `tbl_testimonial`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT for table `tbl_vacancy_insert`
---
-ALTER TABLE `tbl_vacancy_insert`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
