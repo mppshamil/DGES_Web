@@ -56,11 +56,11 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="contactus" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
       
             <div class="container">
-                <h1 style="">CONTACT US</h1>
+                <h1 style="color:white">CONTACT US</h1>
             </div>
         </div>
 

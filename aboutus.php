@@ -55,7 +55,7 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="intropageServices" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
     <div data-aos="fade-up" class="container">
         <h1 style="color: orange; width: 50%;">ABOUT US</h1>
@@ -94,7 +94,8 @@ include_once("db_connect.php");
 <!-- awards & certifications -->
 <section id="awards" class="our-history-about container pt-4 pb-4" style="background-color: rgb(14, 13, 13);">
     <div>
-        <h2 class="text-center container font-weight-bold">AWARDS & CERTIFICATES</h2>
+        <h2 class="text-center container font-weight-bold"><a href="" class="fa fa-trophy"  ></a>AWARDS & CERTIFICATES</h2>
+        
         <br>
         <h4 style="color: rgb(255, 208, 0);">ISO. TECHNO and CIDA</h4>
         <h4 style="color: rgb(255, 208, 0);">Member of National Chamber of Commerce (NCC) and Engineers Federation (EFC)</h4>
@@ -102,7 +103,7 @@ include_once("db_connect.php");
 </section>
 
 <!-- history -->
-<section id="history" class="our-history-about">
+<!-- <section id="history" class="our-history-about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -180,7 +181,11 @@ include_once("db_connect.php");
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<!-- comment for the future development -->
+
+
+
 <!-- <section class="our-history" id="history">
     <div class="container">
         <div class="row">

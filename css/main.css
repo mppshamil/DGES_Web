@@ -1598,7 +1598,7 @@ Slider
     display: none; } }
 
 .intro-page {
-  padding: 200px 0 140px;
+  padding: 200px 0 110px;
   background-image: url("../assets/img/slider.jpg");
   background-size: cover;
   background-position: center;
@@ -1698,8 +1698,8 @@ Slider
   .intro-page .container {
     position: relative;
     z-index: 1; }
-    .intro-page .container h1 {
-      font: 600 72px/1 "Open Sans";
+    .intro-page .container h2 {
+      font: 600 64px/1 "Open Sans";
       text-transform: uppercase;
       margin: 0 0 20px; }
     .intro-page .container p {

@@ -3,7 +3,6 @@
 include_once("db_connect.php");
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,10 +45,10 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="projectsPage" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+<div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
         <div class="container">
-            <h1 style="color: gold;">COMPLETED PROJECTS</h1>
+            <h1 style="color: white;">COMPLETED PROJECTS</h1>
             <!-- <p style="color: gold;">Ongoing Projects</p> -->
             <!-- <p>This is the Test Navigation Page</p> -->
         </div>
@@ -65,13 +64,11 @@ include_once("db_connect.php");
         echo "<br><br><br><br><br><br><br><br><center><h4>There are no completed projects.</h4></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
     } else {
 
-
-
         $k = 0;
         while ($record = mysqli_fetch_assoc($resultset)) {
             if ($k == 0) {
                 // echo "<h1>No vacancies</h1>";
-            }   
+            }
             if ($k % 1 == 0) {
                 // echo "</div>";
                 echo "<br>";
@@ -81,57 +78,265 @@ include_once("db_connect.php");
             $k++;
     ?>
 
-
     <div class="wrapper">
-        <article>
-            <div class="container-fluid">
 
+            <div class="">
+                <!-- civil -->
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
-                             <div class="row">
 
-                        <div class="col-md-6">
-                            <div class="single-portfolio--slider">
-                                <div>
-                                    <img src="  <?php echo $record['Image1'];  ?>" alt="">
+                            <h1 class="text-center pb-4 pt-4">CIVIL PROJECTS (Completed)</h1>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/01/1.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/01/3.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/01/5.jpg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <img src="  <?php echo $record['Image2'];  ?>" alt=""> 
-                                </div>
-                                <div>
-                                    <img src="  <?php echo $record['Image3'];  ?>" alt="">
+
+                                <div class="col-md-6">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2> Proposed Office Building For Dockyard General Engineering Services (Pvt) Ltd  </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client:</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year:
+                                        </span></h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <h2> <?php echo $record['ProjectName'];  ?> </h2>
-                            <p> <?php echo $record['ProjectDescription'];  ?></p>
-                            <ul>
-                                <li>
-                                   <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
-                                   <?php echo $record['subDescription1'];  ?>
-                                </li>
-                                <li>
-                                   <h5><span><?php echo $record['subTopic2'];  ?></span></h5>
-                                   <?php echo $record['subDescription2'];  ?>
-                                </li>
-                               
-                            </ul>
-                            <!-- <a href="#" class="button">Read More</a> -->
+
                         </div>
                     </div>
                 </div>
 
+                <!-- mechanical -->
+                <div class="row" style="background-color: rgb(247, 247, 247);">
+                    <div class="col">
+                        <div class="single-portfolio">
+
+                            <h1 class="text-center pb-4 pt-4 ">MECHANICAL PROJECTS (Completed)</h1>
+                            <!-- 1 -->
+                            <div class="row">
+
+                                <div class="col-md-6" style="padding-top: 160px;">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2>Ambathale Pipe Diversion</h2>
+                                    <h5><span>Pipeline Diversion at Ambathale</span></h5>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client: Sri Lanka Land Development Corporation</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2019-2021
+                                        </span></h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/completed/Ambathale Pipe Diversion/IMG_20200620_223052.jpg" alt="">
+                                        </div>
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/completed/Ansell Lanka Latext Tank/IMG_20170531_142003.jpg" alt="">
+                                        </div>
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding-top: 160px;">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2>Ansell Lanka Latext Tank</h2>
+                                    <h5><span>Design, Fabrication and Installation of 4 nos of Latex Storage Tanks</span></h5>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!--<?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client: Ansell Lanka (Pvt) Ltd- Biyagama</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2017
+                                            </span>
+                                        </h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                                
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="row pt-3 pb-3">
+
+                                <div class="col-md-6" style="padding-top: 160px;">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2>Ceylon Oxygen</h2>
+                                    <h5><span>Project Construction of New Plant</span></h5>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client: Ceylon Oxygen Ltd</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 
+                                            </span>
+                                        </h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/completed/Ceylon Oxygen/DSC_0320.jpg" alt="">
+                                        </div>
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="row pb-3">
+                                <div class="col-md-6">
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/MechanicalProjects/completed/CIC Silo Ekala/DSC02664.JPG" alt="">
+                                        </div>
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                        <!-- <div> -->
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <!-- <img src="" alt=""> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding-top: 160px;">
+                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h2>CIC Silo Ekala</h2>
+                                    <h5><span>Removing and Re-Installation of Silos<</span></h5>
+                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+
+                                        <h5><span>Client: CIC FEEDS (PVT) LTD</span></h5>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h5>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2016
+                                            </span>
+                                        </h5>
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-        </div>
+
+            </div>
+        
     </div>
-</article>
-</div>
 
 
-                <?php }
+    <?php }
+
         if ($k % 1 != 0) {
 
             echo "<br>";
@@ -139,24 +344,17 @@ include_once("db_connect.php");
     } ?>
 
 
-
-
-
-
-
-
-     
-
-<!-- footer -->
-<?php 
+    <!-- footer -->
+    <?php
         include('components/footer.php');
-?>
+    ?>
 
     <!-- <script type="text/javascript">
         window.odometerOptions = {
             format: '(,ddd)',
         };
     </script> -->
+
     <script src="js/vendor/jquery-3.1.0.min.js"></script>
     <script src="js/vendor/jquery.easing.min.js"></script>
     <script src="js/vendor/tether.js"></script>
