@@ -56,7 +56,7 @@ include_once("db_connect.php");
 
     <?php
 
-    $sql = "SELECT * FROM tbl_projects where ProjectStatus='Ongoing' ";
+    //$sql = "SELECT * FROM tbl_projects where ProjectStatus='Ongoing' ";
     $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
     $count = mysqli_num_rows($resultset);
 

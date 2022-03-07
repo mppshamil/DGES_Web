@@ -1,4 +1,25 @@
 
+
+<style>
+    .dropdown-menu li {
+  position: sticky;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+</style>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
@@ -15,50 +36,104 @@
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="aboutus.php#visionmission">Vision, Mission and Policies</a>
+                            
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                    Submenu &raquo;
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Submenu item 2</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                            <ul class="dropdown-menu dropdown-submenu">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Multi level 1</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Multi level 2</a>
+                                            </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <li>
+                                    <a class="dropdown-item" href="aboutus.php#visionmission">Vision, Mission and Policies</a>
+                                </li>
+                                <li>
                                 <a class="dropdown-item" href="aboutus.php#awards">Our History</a>
+                                </li>
+                                <li>
                                 <a class="dropdown-item" href="aboutus.php#history">Awards & Certifications</a>
+                                </li>
+                                <li>
                                 <a class="dropdown-item" href="aboutus.php#qualityPolicy">Quality Policies</a>
+                                </li>
+                                <li>
                                 <a class="dropdown-item" href="aboutus.php#directors">Directors Profile</a>
+                                </li>
+                                <li>
                                 <a class="dropdown-item" href="aboutus.php#intropageManagementT">Management Team</a>
-                            </div>
+                                </li>
+                            
+                            
+                            </ul>
                         </li>
 
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.php" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="services.php#GeneralInfrastructure">General Infrastructure</a>
-                                <a class="dropdown-item" href="services.php#Irrigation">Irrigation</a>
-                                <a class="dropdown-item" href="services.php#PetroChemical">Petrochemical</a>
-                                <a class="dropdown-item" href="services.php#PowerandEnergy">Power and Energy</a>
-                                <a class="dropdown-item" href="services.php#LandWater">Land/ Water Based Carriages</a>
-                                <a class="dropdown-item" href="services.php#HeavyStructures">Heavy Structures</a>
-                                <a class="dropdown-item" href="services.php#SlopeStablization">Slope Stablization</a>
-                                <a class="dropdown-item" href="services.php#ConcreteStructure">Concrete Structure Restoration</a>
-                                <a class="dropdown-item" href="services.php#SpecializedEngineering">Specialized Engineering</a>
-                            </div>
+                            <ul class="dropdown-menu dropdown-submenu">
+
+                                <li><a class="dropdown-item" href="services.php#GeneralInfrastructure">General Infrastructure</a></li>
+                                <li><a class="dropdown-item" href="services.php#Irrigation">Irrigation</a></li>
+                                <li><a class="dropdown-item" href="services.php#PetroChemical">Petrochemical</a></li>
+                                <li><a class="dropdown-item" href="services.php#PowerandEnergy">Power and Energy</a></li>
+                                <li><a class="dropdown-item" href="services.php#LandWater">Land/ Water Based Carriages</a></li>
+                                <li><a class="dropdown-item" href="services.php#HeavyStructures">Heavy Structures</a></li>
+                                <li><a class="dropdown-item" href="services.php#SlopeStablization">Slope Stablization</a></li>
+                                <li><a class="dropdown-item" href="services.php#ConcreteStructure">Concrete Structure Restoration</a></li>
+                                <li><a class="dropdown-item" href="services.php#SpecializedEngineering">Specialized Engineering</a></li>           
+                            </ul>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="productsMarinep.php">Marine Paints</a>
-                                <a class="dropdown-item" href="#">Auto Paint</a>
-                                <a class="dropdown-item" href="productsKemppi.php">KEMPPI Welding Machines</a>                               
-                                <a class="dropdown-item" href="productsGarco.php">Graco Spray Equipments</a>
-                                <a class="dropdown-item" href="ecoquip.php">Graco Ecoquip</a>
+                            <ul class="dropdown-menu dropdoen-submenu">
+
+                                <li><a class="dropdown-item" href="productsMarinep.php">Marine Paints</a></li>
+                                <li><a class="dropdown-item" href="#">Auto Paint</a></li>
+                                <li><a class="dropdown-item" href="productsKemppi.php">KEMPPI Welding Machines</a></li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Graco &raquo;
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Graco Spray Equipments</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Graco Ecoquip</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- <li><a class="dropdown-item" href="">Graco Spray Equipments</a></li> -->
+                                <!-- <li><a class="dropdown-item" href="">Graco Ecoquip</a></li> -->
+
                                 <!-- <a class="dropdown-item" href="#">Something else here</a>
                                 <a class="dropdown-item" href="#">Another action</a> -->
-                            </div>
+                            </ul>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="completedProjects.php">Completed Projects</a>
-                                <a class="dropdown-item" href="ongoingProjects.php">Ongoing Projects</a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li><a class="dropdown-item" href="completedProjects.php">Completed Projects</a></li>
+                                <li><a class="dropdown-item" href="ongoingProjects.php">Ongoing Projects</a></li>                              
                                 <!-- <a class="dropdown-item" href="#">Something else here</a>
                                 <a class="dropdown-item" href="#">Another action</a> -->
-                            </div>
+                            </ul>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link" href="careers.php">CAREERS</a>
@@ -75,4 +150,5 @@
         </div>
     </div>
 </div>
+
 
