@@ -48,7 +48,7 @@ include_once("db_connect.php");
     while ($record = mysqli_fetch_assoc($resultset)) {
     ?>
 
-        <div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
+        <div class="intro-page-career" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
         <div class="container">
             <h1 class="text-warning" style="">PRODUCTS</h1>
@@ -57,13 +57,13 @@ include_once("db_connect.php");
     </div>
 
     <!--  -->
-    <div class="container-fluid pb-4 pt-4" style="padding-left: 80px; padding-right: 80px;">
+    <div class="container-fluid pb-4 pt-4" style="padding-left: 80px; padding-right: 80px; background-color: rgb(236, 236, 236);">
         <h2 class="font-weight-bold">FEATURED NEWS</h2>
         <p class="pb-5">Compact, lightweight and capable. Our MMA welding equipment meets professional welding demands in every respect. Arc ignition and stability dynamic control ensure that every electrode burns effortlessly to produce quality welds. All models are power generator compatible and able to operate in a wide range of conditions from sub zero temperatures to desert heat.</p>
         <div class="row justify-content-center">
             
             <div class="col-md-8 col-lg-6 col-xl-4">
-                <a href="">
+                <a href="newsContent.php">
                     <div class="card h-120 mb-4 text-black">
                         <img
                         src="assets/img/SIGMAProducts/protective/7.jpg"
@@ -72,7 +72,7 @@ include_once("db_connect.php");
                         />
                         <div class="card-body">
                             <div class="">
-                                <a href=""><h3 class="text-center card-title font-weight-bold">News 1</h3></a>
+                                <a href="newsContent.php"><h3 class="text-center card-title font-weight-bold">News 1</h3></a>
                                 <p class="text-muted mb-4">Our advanced coatings and systems for civil and commercial infrastructure deliver proven protection from corrosion, high-temperatures and fire to ensure durability and aesthetic performance that will protect your valuable assets.</p>
                             </div>
                             <p class="text-info" style="float: right;">Date: 2022-03-03</p>
@@ -82,7 +82,7 @@ include_once("db_connect.php");
             </div>
 
             <div class="col-md-8 col-lg-6 col-xl-4">
-                <a href="">
+                <a href="newsContent.php">
                     <div class="card h-120 mb-4 text-black">
                         <img
                         src="assets/img/SIGMAProducts/protective/5.jpg"
@@ -91,7 +91,7 @@ include_once("db_connect.php");
                         />
                         <div class="card-body">
                             <div class="">
-                                <a href=""><h3 class="text-center card-title font-weight-bold">News 2</h3></a>
+                                <a href="newsContent.php"><h3 class="text-center card-title font-weight-bold">News 2</h3></a>
                                 <p class="text-muted mb-4">Our advanced coatings and systems for civil and commercial infrastructure deliver proven protection from corrosion, high-temperatures and fire to ensure durability and aesthetic performance that will protect your valuable assets.</p>
                             </div>
                             <p class="text-info" style="float: right;">Date: 2022-03-03</p>
@@ -100,17 +100,27 @@ include_once("db_connect.php");
                 </a>
             </div>
             
+            <div class="col-md-8 col-lg-6 col-xl-4" data-aos="fade-left">
+
+                <div class="card h-120 mb-4 text-black">
+                    <!-- facebook -->
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="lphJrHj7"></script>
+                    <div class="fb-page" data-href="https://www.facebook.com/dges.sl" data-tabs="timeline" data-width="500px" data-height="600px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Meta</a></blockquote></div>                
+                </div> 
+            </div>
+
             <div class="col-md-8 col-lg-6 col-xl-4">
-                <a href="">
+                <a href="newsContent.php">
                     <div class="card h-120 mb-4 text-black">
                         <img
-                        src="assets/img/SIGMAProducts/protective/3.jpg"
+                        src="assets/img/SIGMAProducts/protective/7.jpg"
                         class="card-img-top"
                         alt="Apple Computer"
                         />
                         <div class="card-body">
                             <div class="">
-                                <a href=""><h3 class="text-center card-title font-weight-bold">News 3</h3></a>
+                                <a href="newsContent.php"><h3 class="text-center card-title font-weight-bold">News 1</h3></a>
                                 <p class="text-muted mb-4">Our advanced coatings and systems for civil and commercial infrastructure deliver proven protection from corrosion, high-temperatures and fire to ensure durability and aesthetic performance that will protect your valuable assets.</p>
                             </div>
                             <p class="text-info" style="float: right;">Date: 2022-03-03</p>
@@ -119,6 +129,43 @@ include_once("db_connect.php");
                 </a>
             </div>
 
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <a href="newsContent.php">
+                    <div class="card h-120 mb-4 text-black">
+                        <img
+                        src="assets/img/SIGMAProducts/protective/5.jpg"
+                        class="card-img-top"
+                        alt="Apple Computer"
+                        />
+                        <div class="card-body">
+                            <div class="">
+                                <a href="newsContent.php"><h3 class="text-center card-title font-weight-bold">News 2</h3></a>
+                                <p class="text-muted mb-4">Our advanced coatings and systems for civil and commercial infrastructure deliver proven protection from corrosion, high-temperatures and fire to ensure durability and aesthetic performance that will protect your valuable assets.</p>
+                            </div>
+                            <p class="text-info" style="float: right;">Date: 2022-03-03</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <a href="newsContent.php">
+                    <div class="card h-120 mb-4 text-black">
+                        <img
+                        src="assets/img/SIGMAProducts/protective/5.jpg"
+                        class="card-img-top"
+                        alt="Apple Computer"
+                        />
+                        <div class="card-body">
+                            <div class="">
+                                <a href="newsContent.php"><h3 class="text-center card-title font-weight-bold">News 2</h3></a>
+                                <p class="text-muted mb-4">Our advanced coatings and systems for civil and commercial infrastructure deliver proven protection from corrosion, high-temperatures and fire to ensure durability and aesthetic performance that will protect your valuable assets.</p>
+                            </div>
+                            <p class="text-info" style="float: right;">Date: 2022-03-03</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 

@@ -147,7 +147,7 @@ include_once("db_connect.php");
 
 
         <div class="home-slider">
-            <div class="home-slider--wrapper" style="margin-top: -45px;">
+            <div class="home-slider--wrapper" style="">
                 <div>
                     <!-- <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home1.jpg') ;float: left;width: 100%;"> -->
                     <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide1'];  ?>') ;float: left;width: 100%;">
@@ -236,7 +236,7 @@ include_once("db_connect.php");
             </div>
         </section> -->
         <br>
-        <div data-aos="fade-left">
+            <div data-aos="fade-left">
         </div>
 
 
@@ -252,6 +252,125 @@ include_once("db_connect.php");
                             We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.
                         </p>
                         <a href="aboutus.php" class="button">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section class="our-blog">
+            <div class="container">
+                <h2>PROJECTS</h2>
+                <span class="dot-dash dark">.</span>
+            </div>
+            <div class="our-blog--container">
+                <div class="our-blog--item"  data-aos="fade-left">
+                    <div class="our-blog--item__image">
+                        <a href="single.html">
+                            <img src="assets/img/MechanicalProjects/completed/Ansell Lanka Latext Tank/IMG_20170531_142003.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="our-blog--item__text left">
+                        <h3>General Infrastructure</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                        <a href="single.html">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="our-blog--item" data-aos="fade-right">
+                    <div class="our-blog--item__image">
+                        <a href="single.html">
+                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_100343.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="our-blog--item__text left">
+                        <h3>Irrigation</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                        <a href="single.html">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="our-blog--item" data-aos="fade-left">
+                    <div class="our-blog--item__text right">
+                        <h3>Petrochemical</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                        <a href="single.html">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="our-blog--item__image">
+                        <a href="single.html">
+                            <img src="assets/img/MechanicalProjects/completed/Ceylon Oxygen/DSC_0320.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="our-blog--item" data-aos="fade-right">
+                    <div class="our-blog--item__text right">
+                        <h3>Power and Energy</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                        <a href="single.html">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="our-blog--item__image">
+                        <a href="single.html">
+                            <img src="assets/img/Project Photos - completed/04/IMG_20181031_120823(1).jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- partners -->
+        <section class="partners">
+            <div class="container">
+                <h2>Partners</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <span class="dot-dash dark">.</span>
+                <div class="partners--container">
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners--item">
+                        <div class="partners--item__image">
+                            <img src="assets/img/partner1.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -418,7 +537,7 @@ include_once("db_connect.php");
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
 
@@ -472,9 +591,6 @@ include_once("db_connect.php");
                                     </div>
                                 </div>
                             </div>
-
-
-
 
                         <?php }
                                     if ($k % 2 != 0) {

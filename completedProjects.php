@@ -1,5 +1,4 @@
-﻿
-<?php
+﻿<?php
 include_once("db_connect.php");
 ?>
 
@@ -56,7 +55,7 @@ include_once("db_connect.php");
 
     <?php
 
-    $sql = "SELECT * FROM tbl_projects where ProjectStatus='Completed' ";
+    //$sql = "SELECT * FROM tbl_projects where ProjectStatus='Completed' ";
     $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
     $count = mysqli_num_rows($resultset);
 
@@ -107,10 +106,11 @@ include_once("db_connect.php");
                                 </div>
 
                                 <div class="col-md-6">
-                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
                                     <h2> Proposed Office Building For Dockyard General Engineering Services (Pvt) Ltd  </h2>
-                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <p> <?php //echo $record['ProjectDescription'];?></p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
@@ -150,7 +150,8 @@ include_once("db_connect.php");
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
                                     <h2>Ambathale Pipe Diversion</h2>
                                     <h5><span>Pipeline Diversion at Ambathale</span></h5>
-                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <p> <?php //echo $record['ProjectDescription'];?></p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
@@ -211,7 +212,8 @@ include_once("db_connect.php");
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
                                     <h2>Ansell Lanka Latext Tank</h2>
                                     <h5><span>Design, Fabrication and Installation of 4 nos of Latex Storage Tanks</span></h5>
-                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <p> <?php //echo $record['ProjectDescription'];?></p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                     <ul>
                                         <li>
                                         <!--<?php echo $record['subDescription1'];?> -->
@@ -242,7 +244,10 @@ include_once("db_connect.php");
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
                                     <h2>Ceylon Oxygen</h2>
                                     <h5><span>Project Construction of New Plant</span></h5>
-                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <p> <?php //echo $record['ProjectDescription'];?></p>
+
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
@@ -289,22 +294,25 @@ include_once("db_connect.php");
                                             <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
                                             <img src="assets/img/MechanicalProjects/completed/CIC Silo Ekala/DSC02664.JPG" alt="">
                                         </div>
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
+                                        <div>
+                                            <img src="  <?php echo $record['Image2'];  ?>" alt=""> 
+                                            <img src="" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="  <?php echo $record['Image3'];  ?>" alt="">
+                                            <img src="" alt="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6" style="padding-top: 160px;">
+                                <div class="col-md-6" style="padding-top: 60px;">
                                     <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
                                     <h2>CIC Silo Ekala</h2>
                                     <h5><span>Removing and Re-Installation of Silos<</span></h5>
-                                    <p> <?php echo $record['ProjectDescription'];?></p>
+                                    <p> <?php //echo $record['ProjectDescription'];?></p>
+
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
