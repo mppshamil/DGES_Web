@@ -18,6 +18,7 @@ include_once("db_connect.php");
     <link href="css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <link rel="stylesheet" href="assets/flaticon/font/flaticon.css" >
 
     <script src="bower_components/aos/dist/aos.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.js"></script>
@@ -110,7 +111,76 @@ include_once("db_connect.php");
             background: #1abc9c;
             border: 5px double;
         }
+
+
+        /* stats */
+        .fact {
+            position: relative;
+            width: 100%;
+            /* padding: 45px 0; */
+        }
+
+        .fact .col-6 {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .fact .fact-icon {
+            position: relative;
+            margin: 7px 15px 0 15px;
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fact .fact-icon [class^="flaticon-"]::before {
+            margin: 0;
+            font-size: 60px;
+            line-height: 60px;
+            background-image: linear-gradient(#ffffff, #fdbe33);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .fact .fact-right .fact-icon [class^="flaticon-"]::before {
+            background-image: linear-gradient(#ffffff, #030f27);
+        }
+
+        .fact .fact-left,
+        .fact .fact-right {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        .fact .fact-text h2 {
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        .fact .fact-text p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .fact .fact-left {
+            color: #fdbe33;
+            background: #000000;
+        }
+
+        .fact .fact-right {
+            color: #030f27;
+            background: #fdba28;
+        }
+
+        .fact .fact-left h2 {
+            color: #fdbe33;
+        }
+
     </style>
+
     <!-- navbar ----------------->
 
     <!--Bootstrap CSS-->
@@ -239,7 +309,6 @@ include_once("db_connect.php");
             <div data-aos="fade-left">
         </div>
 
-
         <section class="our-history">
             <div class="container">
                 <div class="row">
@@ -247,7 +316,7 @@ include_once("db_connect.php");
                         <img src="assets/img/dges_img/news-1-CA-2.jpg" alt="" />
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-delay="300">
-                        <h2>Our History</h2>
+                        <h2 style="font-weight: bolder;">25 Years Experience</h2>
                         <p class="text-justify">We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course.
                             We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.
                         </p>
@@ -257,10 +326,63 @@ include_once("db_connect.php");
             </div>
         </section>
 
+        <!-- stats Start -->
+        <div class="fact">
+            <div class="">
+                <div class="row counters">
+                    <div class="col-md-6 fact-left wow slideInLeft" data-aos="fade-right">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="fact-icon">
+                                    <i class="flaticon-worker"></i>
+                                </div>
+                                <div class="fact-text">
+                                    <h2 data-toggle="counter-up">550</h2>
+                                    <p>Expert Workers</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="fact-icon">
+                                    <i class="flaticon-building"></i>
+                                </div>
+                                <div class="fact-text">
+                                    <h2 data-toggle="counter-up">140</h2>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 fact-right wow slideInRight" data-aos="fade-left">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="fact-icon">
+                                    <i class="flaticon-address"></i>
+                                </div>
+                                <div class="fact-text">
+                                    <h2 data-toggle="counter-up">159</h2>
+                                    <p>Completed Projects</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="fact-icon">
+                                    <i class="flaticon-crane"></i>
+                                </div>
+                                <div class="fact-text">
+                                    <h2 data-toggle="counter-up">12</h2>
+                                    <p>Running Projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
         <!-- projects -->
         <section class="our-blog">
             <div class="container">
-                <h2>PROJECTS</h2>
+                <h2>We Provide Services</h2>
                 <span class="dot-dash dark">.</span>
             </div>
             <div class="our-blog--container">
@@ -316,7 +438,7 @@ include_once("db_connect.php");
         </section>
 
         <!-- partners -->
-        <section class="partners">
+        <!-- <section class="partners">
             <div class="container">
                 <h2>Partners</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -374,7 +496,7 @@ include_once("db_connect.php");
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="case-study">
             <div class="container" data-aos="fade-right">
@@ -423,7 +545,7 @@ include_once("db_connect.php");
             </div>
         </section>
 
-        <section class="statistics">
+        <!-- <section class="statistics">
             <div class="container-fluid">
                 <div class="statistics--item">
                     <div class="statistics--item__image"><i class="fa fa-users"></i></div>
@@ -451,7 +573,7 @@ include_once("db_connect.php");
                     <h5>Services</h5>
                 </div>
             </div>
-        </section>
+        </section> -->
     <?php } ?>
     <!-- <section class="partners">
             <div class="container">
@@ -524,9 +646,6 @@ include_once("db_connect.php");
     </div>
     <?php //}  
     ?>
-
-
-
 
     <!-- testimonials -->
     <div class="container pt-5 pb-5">
@@ -641,6 +760,15 @@ include_once("db_connect.php");
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
     <!--jQuery-->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script>
+        // jQuery counterUp Statistics
+        $('[data-toggle="counter-up"]').counterUp({
+            delay: 10,
+            time: 2000
+        });
+    </script>
 
 </body>
 
