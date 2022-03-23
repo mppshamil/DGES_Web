@@ -85,11 +85,7 @@ include_once("db_connect.php");
 
                 <div class="row">
                     <div class="col">
-                        <div class="single-portfolio">
-
-                            <h1 class="text-center pb-4 pt-4">MECHANICAL PROJECTS (Ongoing)</h1>
-                            
-
+                        <div class="single-portfolio">                            
                             <!-- 1 -->
                             <div class="row">
                                 <div class="col-md-6">

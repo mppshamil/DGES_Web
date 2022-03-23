@@ -2,21 +2,23 @@
 
 <style>
     .dropdown-menu li {
-  position: sticky;
-}
-.dropdown-menu .dropdown-submenu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: -7px;
-}
-.dropdown-menu .dropdown-submenu-left {
-  right: 100%;
-  left: auto;
-}
-.dropdown-menu > li:hover > .dropdown-submenu {
-  display: block;
-}
+    position: relative;
+    }
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    left: 100%;
+    left: auto;
+    float: left;
+    }
+    
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
 
 </style>
 
@@ -34,73 +36,116 @@
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link" href="index.php">HOME</a>
                         </li>
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
-                            
-                            <ul class="dropdown-menu dropdown-submenu">
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                    Submenu &raquo;
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-submenu">
-                                        <li>
-                                            <a class="dropdown-item" href="#">Submenu item 2</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                            <ul class="dropdown-menu dropdown-submenu">
-                                            <li>
-                                                <a class="dropdown-item" href="#">Multi level 1</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Multi level 2</a>
-                                            </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                
-                                <li>
-                                    <a class="dropdown-item" href="aboutus.php#visionmission">Vision, Mission and Policies</a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="aboutus.php#awards">Our History</a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="aboutus.php#history">Awards & Certifications</a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="aboutus.php#qualityPolicy">Quality Policies</a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="aboutus.php#directors">Directors Profile</a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="aboutus.php#intropageManagementT">Management Team</a>
-                                </li>
-                            
-                            
-                            </ul>
-                        </li>
-
+                    
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.php" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
                             <ul class="dropdown-menu dropdown-submenu">
 
-                                <li><a class="dropdown-item" href="services.php#GeneralInfrastructure">General Infrastructure</a></li>
-                                <li><a class="dropdown-item" href="services.php#Irrigation">Irrigation</a></li>
-                                <li><a class="dropdown-item" href="services.php#PetroChemical">Petrochemical</a></li>
-                                <li><a class="dropdown-item" href="services.php#PowerandEnergy">Power and Energy</a></li>
-                                <li><a class="dropdown-item" href="services.php#LandWater">Land/ Water Based Carriages</a></li>
-                                <li><a class="dropdown-item" href="services.php#HeavyStructures">Heavy Structures</a></li>
-                                <li><a class="dropdown-item" href="services.php#SlopeStablization">Slope Stablization</a></li>
-                                <li><a class="dropdown-item" href="services.php#ConcreteStructure">Concrete Structure Restoration</a></li>
-                                <li><a class="dropdown-item" href="services.php#SpecializedEngineering">Specialized Engineering</a></li>           
+                                <li>
+                                    <a class="dropdown-item" href="services.php#GeneralInfrastructure">General Infrastructure &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="services.php#Irrigation">Irrigation &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#PetroChemical">Petrochemical &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#PowerandEnergy">Power and Energy &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#LandWater">Land/ Water Based Carriages &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#HeavyStructures">Heavy Structures &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#SlopeStablization">Slope Stablization &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#ConcreteStructure">Concrete Structure Restoration &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.php#SpecializedEngineering">Specialized Engineering &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Ongoing Projects</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Completed Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>           
                             </ul>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
-                            <ul class="dropdown-menu dropdoen-submenu">
+                            <ul class="dropdown-menu dropdown-submenu">
 
                                 <li><a class="dropdown-item" href="productsMarinep.php">Marine Paints</a></li>
                                 <li><a class="dropdown-item" href="#">Auto Paint</a></li>
@@ -129,10 +174,125 @@
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                             <ul class="dropdown-menu dropdown-submenu">
-                                <li><a class="dropdown-item" href="completedProjects.php">Completed Projects</a></li>
-                                <li><a class="dropdown-item" href="ongoingProjects.php">Ongoing Projects</a></li>                              
+                                <li>
+                                    <a class="dropdown-item" href="completedProjects.php">Completed Projects &raquo;</a>
+                                    <!-- <ul class="dropdown-submenu dropdown-submenu-left dropdown-menu">
+                                        <li><a class="dropdown-item" href="">Submenu item 1</a></li>
+                                        <li><a class="dropdown-item" href="">Submenu item 2</a></li>
+                                        <li><a class="dropdown-item" href="">Submenu item 3</a></li>
+                                        <li><a class="dropdown-item" href="">Submenu item 4</a></li>
+                                    </ul> -->
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">General Infrastructure</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Irrigation</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Petrochemical</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Power and Energy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Land/ Water Based Carriages</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Heavy Structures</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Slope Stablization</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Concrete Structure Restoration</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Specialized Engineering</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ongoingProjects.php">Ongoing Projects &raquo;</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">General Infrastructure</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Irrigation</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Petrochemical</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Power and Energy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Land/ Water Based Carriages</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Heavy Structures</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="productsGarco.php">Slope Stablization</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Concrete Structure Restoration</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ecoquip.php">Specialized Engineering</a>
+                                        </li>
+                                    </ul>
+                                </li>                              
                                 <!-- <a class="dropdown-item" href="#">Something else here</a>
                                 <a class="dropdown-item" href="#">Another action</a> -->
+                            </ul>
+                        </li>
+
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                            
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <!-- <li>
+                                    <a class="dropdown-item" href="#">
+                                    Submenu &raquo;
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Submenu item 2</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                            <ul class="dropdown-menu dropdown-submenu">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Multi level 1</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Multi level 2</a>
+                                            </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                
+                                <li>
+                                    <a class="dropdown-item" href="aboutus.php#visionmission">Vision, Mission and Policies</a>
+                                </li>
+                                <li>
+                                <a class="dropdown-item" href="aboutus.php#awards">Our History</a>
+                                </li>
+                                <li>
+                                <a class="dropdown-item" href="aboutus.php#history">Awards & Certifications</a>
+                                </li>
+                                <li>
+                                <a class="dropdown-item" href="aboutus.php#qualityPolicy">Quality Policies</a>
+                                </li>
+                                <li>
+                                <a class="dropdown-item" href="aboutus.php#directors">Directors Profile</a>
+                                </li>
+                                <li>
+                                <a class="dropdown-item" href="aboutus.php#intropageManagementT">Management Team</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">

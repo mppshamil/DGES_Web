@@ -66,8 +66,8 @@ include_once("db_connect.php");
 <div class="intropageDirectors">
     <div data-aos="fade-up"  class="container">
         <h1 class="text-center pb-3" style="color: black;">WHO WE ARE?</h1>
-        <h5 class="text-dark text-center">We are 40 years old and what is depicted in these pages will amply illustrate that we have been very busy.</h5>
-        <h5 class="text-dark text-center">During this journey we have been tasked with some of the largest and most complex assignments in South Asian Heavy Engineering endeavours and technical sales, and we are proud to state that we have delivered our services and products beyond the expectations of our clients. Furthermore, and we have accomplished the objectives with distinction leaving unmistakable DGES quality stamp on all our accomplishments.</h5>
+        <h5 class="text-dark text-center font-weight-bold">We are 40 years old and what is depicted in these pages will amply illustrate that we have been very busy.</h5>
+        <h5 class="text-dark text-center font-weight-bold">During this journey we have been tasked with some of the largest and most complex assignments in South Asian Heavy Engineering endeavours and technical sales, and we are proud to state that we have delivered our services and products beyond the expectations of our clients. Furthermore, and we have accomplished the objectives with distinction leaving unmistakable DGES quality stamp on all our accomplishments.</h5>
     </div>
 </div>
 
@@ -92,9 +92,9 @@ include_once("db_connect.php");
 </section>
 
 <!-- awards & certifications -->
-<section id="awards" class="our-history-about container pt-4 pb-4" style="background-color: rgb(14, 13, 13);">
+<section id="awards" class="our-history-about  pt-4 pb-4" style="background-color: lightslategray">
     <div>
-        <h2 class="text-center container font-weight-bold"><a href="" class="fa fa-trophy"  ></a>AWARDS & CERTIFICATES</h2>
+        <h2 class="text-center  font-weight-bold"><a href="" class="fa fa-trophy"  ></a>AWARDS & CERTIFICATES</h2>
         
         <br>
         <h4 style="color: rgb(255, 208, 0);">ISO. TECHNO and CIDA</h4>
@@ -203,33 +203,32 @@ include_once("db_connect.php");
 </section> -->
 
 <!-- Quality policy -->
-<section id="qualityPolicy" style="background-color: rgb(250, 234, 234);">
+<section id="qualityPolicy">
     <div class="wrapper pt-4 pb-4">
-        <div class="">
-            <h2 class="text-center container font-weight-bold pb-4">POLICIES</h2>
-                <div data-aos="fade-up"  class="col-md-12 container-fluid" >
-                    <ul style="list-style-type: square;">
-                        <li>We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course.</li>
-                        <li>We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.</li>
-                        <li>The DGES’s strategy is based on innovation and adherence to the highest quality standards to every minute aspect of our business. Our engineering teams continually focus on introducing latest technological advances and explore avenues to provide ‘cutting – edge’ solutions and service excellence to our stakeholders.</li>
-                        <li>We are not an ubiquitous hardware dealer. We work with you to customize the ideal solution with the finest industry standard tools and equipment to assist you to achieve your best.</li>
-                        <li>We expect the demand for marine grade paints in addition to our sale of high – tech engineering products and advices for correct professional use, to grow strong with double digit growth in the coming years.</li>
-                        <li>For us, doing the job well is not good enough. To succeed in today’s competitive market place, we have to be smart and also fast. While we maintain top engineering standards we have to think ‘outside the box’ and walk the extra mile to make the job monumental.</li>
-                        <li>For that we have the imagination, commitment and the professional discipline, together with qualified and experienced engineers, technicians and ancillary staff to maintain the quality standards and the supply chain that stretch to the very limit.</li>
-                        <li>Our work, when completed maintains perfect eco – balance and adds aesthetics to the natural ambiance.</li>
-                        <li class="font-weight-bold text">Our dedication to perfection and uncompromising commitment is to deliver highest achievable quality and value for money in a timely and safe manner for engineering projects of any scale regardless of the complexity of the job or environment.</li>
-                    </ul>
-                </div>
-                <br>
-                <div class="row" style="align-items: center;">
-                    <div class="col-md-6" style="color: rgba(0, 0, 0, 0.432); float: left;">
-                        <img src="assets/img/dges_img/quality-policy.jpg" alt="" />
-                    </div>
-                    <div class="col-md-6" style="color: rgba(0, 0, 0, 0.432); float: right;">
-                        <img src="assets/img/dges_img/ISO-full-2.jpg" alt="" />
-                    </div>
-                </div>
+        <h2 class="text-center container font-weight-bold pb-4">POLICIES</h2>
+        <div class="row container-fluid">
+            <div data-aos="fade-up"  class="col-md-7" >
+                <ul style="list-style-type: square;">
+                    <li>We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course.</li>
+                    <li>We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.</li>
+                    <li>The DGES’s strategy is based on innovation and adherence to the highest quality standards to every minute aspect of our business. Our engineering teams continually focus on introducing latest technological advances and explore avenues to provide ‘cutting – edge’ solutions and service excellence to our stakeholders.</li>
+                    <li>We are not an ubiquitous hardware dealer. We work with you to customize the ideal solution with the finest industry standard tools and equipment to assist you to achieve your best.</li>
+                    <li>We expect the demand for marine grade paints in addition to our sale of high – tech engineering products and advices for correct professional use, to grow strong with double digit growth in the coming years.</li>
+                    <li>For us, doing the job well is not good enough. To succeed in today’s competitive market place, we have to be smart and also fast. While we maintain top engineering standards we have to think ‘outside the box’ and walk the extra mile to make the job monumental.</li>
+                    <li>For that we have the imagination, commitment and the professional discipline, together with qualified and experienced engineers, technicians and ancillary staff to maintain the quality standards and the supply chain that stretch to the very limit.</li>
+                    <li>Our work, when completed maintains perfect eco – balance and adds aesthetics to the natural ambiance.</li>
+                    <li class="font-weight-bold text">Our dedication to perfection and uncompromising commitment is to deliver highest achievable quality and value for money in a timely and safe manner for engineering projects of any scale regardless of the complexity of the job or environment.</li>
+                </ul>
+            </div>
+            <div class="col-md-5" style="float: right">
+                <img src="assets/img/dges_img/quality-policy.jpg"/>
+            </div>
         </div>
+        
+        <br>
+    </div>
+    <div class="container pb-2" style="align-items: center;">
+        <img src="assets/img/dges_img/ISO-full-2.jpg" alt="" />
     </div>
 </section>
 

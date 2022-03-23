@@ -52,21 +52,20 @@ include_once("db_connect.php");
 
         <div class="container">
 
-            <h1 style="color:white">PRODUCTS</h1>
+            <h1 style="color:rgb(252, 194, 88)">KEMPPI WELDING MACHINES</h1>
             <!-- <p>This is the Test Navigation Page</p> -->
         </div>
         </div>
         <!-- content -->
-        <div class="container mb-4" style="padding-top:70px;">
-
-            <div class="row">
-                <div class="col-md-7 col-sm-12 col-xs-12">
-                    <h2 class="font-weight-bold">NEW STANDARDS IN THE COMPACT MIG/MAG CLASS</h2>
-                    <p class="text-justify">Designed for the modern welding workshop, Kempact RA expresses stylish and purposeful design through high build quality and functional user benefits, making weld tasks productive, accurate and efficient.
-                    </p class="pb-4">
-                    <p class="text-justify">Kempact RA is built on Kemppi’s latest power source platform, ensuring optimal welding performance and excellent power cost efficiency. Eleven model options include 180, 250 and 320 ampere power sources, including a choice of either Regular (R) or Adaptive (A) control panel interface, which serve the wide ranging needs of metal fabrication workshops. Delivery specification includes welding gun and earth return lead pack.</p>
-                </div>
-                <div class="col-md-5 col-sm-12 col-xs-12">
+        <div class="container-fluid mb-4" style="padding-top:50px;">
+            <div class=" col-md-12 col-sm-12 col-xs-1 pb-4">
+                <h2 class="font-weight-bold text-center pb-4 text-warning">NEW STANDARDS IN THE COMPACT MIG/MAG CLASS</h2>
+                <h5 class="text-center">Designed for the modern welding workshop, Kempact RA expresses stylish and purposeful design through high build quality and functional user benefits, making weld tasks productive, accurate and efficient.
+                </h5>
+                <h5 class="text-center">Kempact RA is built on Kemppi’s latest power source platform, ensuring optimal welding performance and excellent power cost efficiency. Eleven model options include 180, 250 and 320 ampere power sources, including a choice of either Regular (R) or Adaptive (A) control panel interface, which serve the wide ranging needs of metal fabrication workshops. Delivery specification includes welding gun and earth return lead pack.</h5>
+            </div class="col-md-12 col-sm-12 col-xs-12">
+        </div>
+                <!-- <div class="col-md-5 col-sm-12 col-xs-12">
                     <h3 class="font-weight-bold">BENEFITS</h3>
                     <ul class="pl-4">
                         <li>Modern, energy efficient power source</li>
@@ -83,17 +82,11 @@ include_once("db_connect.php");
                         <li>Parts storage trays</li>
                         <li>Kemppi 3+ warranty</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
-
-        <!-- products list start -->
         <!-- 1 -->
-
-
-
-
-
+    <div style="background-color:rgb(212, 212, 212)">
         <div class="container py-3 px-3 pb-4">
             <h2 class="font-weight-bold">MMA Products</h2>
             <p class="pb-5">Compact, lightweight and capable. Our MMA welding equipment meets professional welding demands in every respect. Arc ignition and stability dynamic control ensure that every electrode burns effortlessly to produce quality welds. All models are power generator compatible and able to operate in a wide range of conditions from sub zero temperatures to desert heat.</p>
@@ -149,6 +142,8 @@ include_once("db_connect.php");
 
             </div>
         </div>
+    </div>
+        
 
         <!-- 2 -->
         <div class="container py-3 px-3 pb-4">
@@ -182,20 +177,20 @@ include_once("db_connect.php");
 
 
 
-                        <div class="col-md-8 col-lg-6 col-xl-4">
-                            <div class="card h-120 mb-4 text-black">
-                                <i class=""></i>
-                                <img src="<?php echo $record['Image'];  ?>" class="card-img-top" alt="Apple Computer" />
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <h5 class="card-title"><?php echo $record['Name'];  ?></h5>
-                                        <p class="text-muted mb-4"><?php echo $record['Description'];  ?></p>
-                                    </div>
-                                    <br>
-                                    <button class="align-center btn btn-warning btn-block text-center">View More</button>
+                    <div class="col-md-8 col-lg-6 col-xl-4">
+                        <div class="card h-120 mb-4 text-black">
+                            <i class=""></i>
+                            <img src="<?php echo $record['Image'];  ?>" class="card-img-top" alt="Apple Computer" />
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <h5 class="card-title"><?php echo $record['Name'];  ?></h5>
+                                    <p class="text-muted mb-4"><?php echo $record['Description'];  ?></p>
                                 </div>
+                                <br>
+                                <button class="align-center btn btn-warning btn-block text-center">View More</button>
                             </div>
                         </div>
+                    </div>
 
 
                 <?php }
@@ -203,18 +198,12 @@ include_once("db_connect.php");
                     }
                 } ?>
 
-
-
             </div>
         </div>
 
-
-
-
-
         <!-- footer -->
         <?php
-        include('components/footer.php');
+            include('components/footer.php');
         ?>
 
 </body>

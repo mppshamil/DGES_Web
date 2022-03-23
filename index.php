@@ -217,12 +217,12 @@ include_once("db_connect.php");
 
 
         <div class="home-slider">
-            <div class="home-slider--wrapper" style="">
+            <div class="home-slider--wrapper">
                 <div>
                     <!-- <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home1.jpg') ;float: left;width: 100%;"> -->
                     <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide1'];  ?>') ;float: left;width: 100%;">
 
-                        <div class="container">
+                        <div class="container" >
                             <h3></h3>
                             <h2 data-aos="fade-up">Welcome To Dockyard General Engineering Services</h2>
                             <span class="dot-dash">.</span>
@@ -234,6 +234,7 @@ include_once("db_connect.php");
                         </div>
                     </div>
                 </div>
+
                 <div>
                     <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide2'];  ?>');">
 
@@ -245,15 +246,14 @@ include_once("db_connect.php");
                             <span class="dot-dash">.</span>
                             <p>We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course.</p>
                             <div class="slider-buttons">
-                                <!-- <a href="#" class="button">Get Started Now</a> -->
                                 <a href="#" class="button button-w">More Info</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div>
                     <!-- <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/dges_img/home3.jpg');"> -->
-
                     <div class="home-slider--wrapper__inner" style="background-image: url('<?php echo $record['slide3'];  ?>');">
 
                         <div class="container">
@@ -274,39 +274,13 @@ include_once("db_connect.php");
                 <div class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
             </div>
             <div class="home-slider--anchor">
-                <span><i class="fa fa-anchor" aria-hidden="true"></i></span>
+                <span><i class="" aria-hidden="true"><img src="assets/img/dges_img/dgeslogoonly.png"/></i></span>
             </div>
         </div>
-
-        <!-- <div class="wrapper">
-        <section class="four-elements">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="four-elements--image"><i class="fa fa-eye" aria-hidden="true"></i></div>
-                        <h3>Sleek Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="four-elements--image"><i class="fa fa-heart" aria-hidden="true"></i></div>
-                        <h3>Clean Code</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="four-elements--image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
-                        <h3>Creative Ideas</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="four-elements--image"><i class="fa fa-comments-o" aria-hidden="true"></i></div>
-                        <h3>Free Support</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+        
         <br>
-            <div data-aos="fade-left">
+
+        <div data-aos="fade-left">
         </div>
 
         <section class="our-history">
@@ -316,7 +290,7 @@ include_once("db_connect.php");
                         <img src="assets/img/dges_img/news-1-CA-2.jpg" alt="" />
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-delay="300">
-                        <h2 style="font-weight: bolder;">25 Years Experience</h2>
+                        <h3 style="font-weight: bolder;">25 Years Experienced</h3>
                         <p class="text-justify">We usually work with uncontrollable elements and circumstances. But, shall not allow such challenges to deter us from our course.
                             We offer heavy engineering together with an myriad of world – class ‘offshoot’ services to facilitate Sri Lankan engineering fraternity to bring their imaginations to life. Also we offer finest tools and material from global industry leaders, which we use in our very own projects and indubitably, our assortment of services and products will empower you to achieve the desired results.
                         </p>
@@ -575,73 +549,15 @@ include_once("db_connect.php");
             </div>
         </section> -->
     <?php } ?>
-    <!-- <section class="partners">
-            <div class="container">
-                <h2>Great Integrations with Others</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <span class="dot-dash dark">.</span>
-                <div class="partners--container">
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="partners--item">
-                        <div class="partners--item__image">
-                            <img src="assets/img/partner1.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+
 
     <!-- <section class="get-started">
-            <div class="container">
-                <h2>Let's Get Started Now. It's FREE!</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a href="contact.html" class="button">Start Free Trial</a>
-            </div>
-        </section> -->
+        <div class="container">
+            <h2>Let's Get Started Now. It's FREE!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a href="contact.html" class="button">Start Free Trial</a>
+        </div>
+    </section>  -->
 
     </div>
     <?php //}  
@@ -725,7 +641,6 @@ include_once("db_connect.php");
 
                 </div>
             </div>
-
         </div>
     </div>
     </div>

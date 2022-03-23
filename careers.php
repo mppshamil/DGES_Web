@@ -89,16 +89,12 @@ include_once("db_connect.php");
         </section>
     </div>
     <hr>
-    <h2 class="text-center font-weight-bold pb-5">AVAILABLE VACANCIES</h2>
+
+    <div class="bg-light">
+    <h2 class="text-center font-weight-bold pt-4 pb-2">AVAILABLE VACANCIES</h2>
     <!-- career list -->
 
-
     <?php
-
-
-
-
-
 
     $sql = "SELECT VacancyName,VacDescription,ImagePath FROM tbl_vacancy_insert where status='Active' ";
     $resultset = mysqli_query($conn, $sql) or die("database error:" . mysqli_error($conn));
@@ -107,33 +103,30 @@ include_once("db_connect.php");
     if ($count == 0) {
         echo "<center><h4>There are no vacancies available.</h4></center>";
     } else {
-
-
-
         $k = 0;
         while ($record = mysqli_fetch_assoc($resultset)) {
             if ($k == 0) {
                 // echo "<h1>No vacancies</h1>";
             }
-            if ($k % 1 == 0) {
+            if ($k % 1 == 0){
                 // echo "</div>";
                 echo "<br>";
                 // echo "<div class='row'>";
 
             }
             $k++;
-    ?>
+            ?>
             <div class="container py-3 px-3 pb-3" style="background-color: #FFC300;">
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-12">
                         <div class=" mb-4 text-black">
                             <i class=""></i>
-                            <img src="<?php echo $record['ImagePath'] ?>" class="card-img-top" alt="" style="width: 100%;" />
+                            <img src="<?php echo $record['ImagePath']?>" class="card-img-top" alt="" style="width: 100%;" />
                             <div class="card-body">
                                 <span>
                                     <h2 class="card-title text-center" style="color: white;"><?php echo $record['VacancyName'];  ?></h2>
                                 </span>
-                                <p class="text-muted mb-4" style="color: white;">
+                                <p class="text-muted" style="color: white;">
                                     <?php echo $record['VacDescription'];  ?>
                                 </p>
                                 <p></p>
@@ -152,25 +145,7 @@ include_once("db_connect.php");
             echo "<br>";
         }
     } ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 
     </div>
 
