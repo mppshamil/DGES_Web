@@ -81,15 +81,15 @@ include_once("db_connect.php");
 
             <div class="">
                 <!-- civil -->
+                <!-- 1 -->
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
-
-                            <h1 class="text-center pb-4 pt-4">CIVIL PROJECTS (Completed)</h1>
-                            <div class="row">
-
-                                <div class="col-md-6">
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Proposed Office Building For Dockyard General Engineering Services (Pvt) Ltd </h2>
                                     <div class="single-portfolio--slider">
+                                        
                                         <div>
                                             <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
                                             <img src="assets/img/Project Photos - completed/01/1.jpg" alt="">
@@ -103,28 +103,30 @@ include_once("db_connect.php");
                                             <img src="assets/img/Project Photos - completed/01/5.jpg" alt="">
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="col-md-6">
                                     <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h2> Proposed Office Building For Dockyard General Engineering Services (Pvt) Ltd  </h2>
-                                    <p> <?php //echo $record['ProjectDescription'];?></p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <h5><span>DGES Building</span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
                                         <?php echo $record['subDescription1'];?> -->
-
-                                        <h5><span>Client:</span></h5>
+                                        <br>
+                                        <h6><span>Client: Dockyard General Engineering Services (Pvt) Ltd</span></h6>
                                         <!-- <?php echo $record['subDescription1'];?> -->
                                         </li>
                                         <li>
-                                        <h5><span>
+                                        <h6><span>
                                             <!-- <?php echo $record['subTopic2'];  ?> -->
-                                            Year:
-                                        </span></h5>
+                                            Year: 2018 - 2020
+                                        </span></h6>
+                                        
                                         <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                        <li>
+                                            <h6><span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Kandy - Bogambara
+                                            </span></h6>
                                         </li>
                                     </ul>
                                     <!-- <a href="#" class="button">Read More</a> -->
@@ -135,13 +137,287 @@ include_once("db_connect.php");
                         </div>
                     </div>
                 </div>
+                <hr>
+                <!-- 2 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="single-portfolio">
+                            <div class="row container pt-3" style="align-items: center;">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Construction of Multimodal Transportation Terminal Project at Bogambara</h2>
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_100259.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_100343.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_114429.jpg" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>Multimedia transportational terminal project</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: Ministry of  Megapolis</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2018 - 2019
+                                            </span>
+                                        </h6>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Kandy - Bogambara
+                                            </span>
+                                        </h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>    
+                <!-- 3 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="single-portfolio">
+                            <div class="row container pt-3" style="align-items: center;">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Construction of Warehouse complex at Embilipitiya in Ratnapura District.</h2>
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/03/1.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/03/20171117_164300.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/03/WP_20170703_13_25_46_Pro.jpg" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>Contruction of warehouse Complex</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: Ministry of Finance</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2017 - 2018
+                                            </span>
+                                        </h6>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Embilipitiya
+                                            </span>
+                                        </h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- 4 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="single-portfolio">
+                            <div class="row container pt-3" style="align-items: center;">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Construction of Grid Storage & Accommodation Building  </h2>
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/04/ec5b9939-a859-4437-8513-db0ab0f6d734.JPG" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/04/IMG_20181031_120823(1).jpg" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <!-- <h2> <?php echo $record['ProjectName'];?></h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>Construction of warehouse Complex</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: Colombo Dockyard PLC</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2019 - 2020
+                                            </span>
+                                        </h6>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Port of Colombo 
+                                            </span>
+                                        </h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- 5 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="single-portfolio">
+                            <div class="row container pt-3" style="align-items: center;">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Proposed Building for Installing Screw Type Mechanical Compost Plant Stage 01</h2>
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/04/ec5b9939-a859-4437-8513-db0ab0f6d734.JPG" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/04/IMG_20181031_120823(1).jpg" alt="">
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>Proposed Building for Installing Screw Type Mechanical Compost Plant Stage 01 for Northern Province at Jaffna</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: Colombo Dockyard PLC</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2019 - 2020
+                                            </span>
+                                        </h6>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Jaffna
+                                            </span>
+                                        </h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- 6 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="single-portfolio">
+                            <div class="row container pt-3" style="align-items: center;">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Design and Build Contract for Construction of Warehouses</h2>
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/04/ec5b9939-a859-4437-8513-db0ab0f6d734.JPG" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/04/IMG_20181031_120823(1).jpg" alt="">
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>Design and Build Contract for Construction of Warehouses to Store HDPE PIpes at Aniyakanda Ekala & Church Hill Reservoir.Design and Build Contract for Construction of Warehouses to Store HDPE PIpes at Aniyakanda Ekala & Church Hill Reservoir.</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: National Water Supply & Drainage Board</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2018 - 2019
+                                            </span>
+                                        </h6>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Gampaha
+                                            </span>
+                                        </h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- mechanical -->
                 <div class="row" style="background-color: rgb(247, 247, 247);">
                     <div class="col">
                         <div class="single-portfolio">
 
-                            <h1 class="text-center pb-4 pt-4 ">MECHANICAL PROJECTS (Completed)</h1>
                             <!-- 1 -->
                             <div class="row">
 

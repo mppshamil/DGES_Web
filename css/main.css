@@ -898,7 +898,7 @@ background-color: rgb(252, 252, 252); }
     font: 600 36px/1 "Source Sans Pro";
     margin: 0 0 20px;
     text-transform: uppercase;
-    color: #6a6a6a; }
+    color: #2e2e2e; }
   .our-history-about p {
     font: 400 16px/25px "Source Sans Pro";
     margin-bottom: 70px; }
@@ -1043,14 +1043,16 @@ article {
     margin-bottom: 25px; }
 
 .single-portfolio h2 {
-  font: 600 36px/1 "Source Sans Pro";
+  /* font: 600 36px/1 "Source Sans Pro"; */
   margin: 0 0 20px;
   text-transform: uppercase;
-  color: #6a6a6a; }
+  /* color: #6a6a6a;  */
+}
 
 .single-portfolio p {
-  font: 400 18px/25px "Source Sans Pro";
-  margin-bottom: 70px; }
+  /* font: 400 18px/25px "Source Sans Pro"; */
+  /* margin-bottom: 70px;  */
+}
 
 .single-portfolio ul {
   margin-bottom: 35px; }
@@ -1489,6 +1491,11 @@ Slider
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end; }
+    
+    .home-slider--anchor img {
+      max-width: 35px;
+    }
+
     .home-slider--anchor span {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1502,8 +1509,8 @@ Slider
       -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
-      color: #ffd000;
-      background: #010a2e;
+      color: #dbdbdb;
+      background: #8d8989;
       height: 60px;
       width: 60px;
       border-radius: 50px;
@@ -1642,8 +1649,8 @@ Slider
  }
 
  .intropageDirectors{
-  background-image: url("../assets/img/directors/directors.png");
-  padding: 200px 0 140px;
+  background-image: url("../assets/img/dges_img/weare.jpg");
+  padding: 100px 0 140px;
   background-size: cover;
   background-position: center;
   color: #ffffff;

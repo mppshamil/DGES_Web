@@ -49,7 +49,7 @@ include_once("db_connect.php");
         <?php } ?>
         <div data-aos="fade-up" class="container">
             <h1 style="color: orange; width: 50%;">OUR SERVICES</h1>
-            <h5 class="text-dark font-weight-bold pt-3">We are 40 years old and what is depicted in these pages will amply illustrate that we have been very busy.</h5>
+            <h5 class="text-light font-weight-bold pt-3">We are 40 years old and what is depicted in these pages will amply illustrate that we have been very busy.</h5>
         </div>
         </div>
 
