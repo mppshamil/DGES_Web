@@ -81,43 +81,40 @@ include_once("db_connect.php");
 
             <div class="">
                 <!-- civil -->
-                <!-- 1 -->
+                <!-- 18 -->
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
                             <div class="row container pt-3">
                                 <div class="col-md-12">
-                                    <h2 class="text-center"> Proposed Office Building For Dockyard General Engineering Services (Pvt) Ltd </h2>
+                                    <h2 class="text-center">Construction of RCC footing structures, Fabrication & Installation of Steel Structures for South Highway</h2>
                                     <div class="single-portfolio--slider">
                                         
                                         <div>
                                             <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/01/1.jpg" alt="">
+                                            <img src="assets/img/Project Photos - completed/18/DSC06322.JPG" alt="">
                                         </div>
                                         <div>
                                             <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/01/3.jpg" alt="">
+                                            <img src="assets/img/Project Photos - completed/18/DSC06326.JPG" alt="">
                                         </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/01/5.jpg" alt="">
-                                        </div>
+                                       
                                     </div>
                                     <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>DGES Building</span></h5>
+                                    <h5><span>Construction of South Highway</span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
                                         <?php echo $record['subDescription1'];?> -->
                                         <br>
-                                        <h6><span>Client: Dockyard General Engineering Services (Pvt) Ltd</span></h6>
+                                        <h6><span>Client: Daimei Slk Pvt Ltd</span></h6>
                                         <!-- <?php echo $record['subDescription1'];?> -->
                                         </li>
                                         <li>
                                         <h6><span>
                                             <!-- <?php echo $record['subTopic2'];  ?> -->
-                                            Year: 2018 - 2020
+                                            Year: 2014 - 2015
                                         </span></h6>
                                         
                                         <!-- <?php echo $record['subDescription2'];?> -->
@@ -125,7 +122,7 @@ include_once("db_connect.php");
                                         <li>
                                             <h6><span>
                                                 <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Kandy - Bogambara
+                                                Location: South Highwaygambara
                                             </span></h6>
                                         </li>
                                     </ul>
@@ -138,264 +135,24 @@ include_once("db_connect.php");
                     </div>
                 </div>
                 <hr>
-                <!-- 2 -->
+                <!-- 20 -->
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
                             <div class="row container pt-3" style="align-items: center;">
                                 <div class="col-md-12">
-                                    <h2 class="text-center">Construction of Multimodal Transportation Terminal Project at Bogambara</h2>
+                                    <h2 class="text-center">Kelani Right Bank Water supply Project</h2>
                                     <div class="single-portfolio--slider">
                                         <div>
                                             <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_100259.jpg" alt="">
+                                            <img src="assets/img/Project Photos - completed/20/" alt="">
                                         </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_100343.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/02/IMG_20190406_114429.jpg" alt="">
-                                        </div>
+                                        
                                     </div>
                                 
                                     <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>Multimedia transportational terminal project</span></h5>
-                                    <ul>
-                                        <li>
-                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
-                                        <?php echo $record['subDescription1'];?> -->
-                                        <br>
-                                        <h6><span>Client: Ministry of  Megapolis</span></h6>
-                                        <!-- <?php echo $record['subDescription1'];?> -->
-                                        </li>
-                                        <li>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2018 - 2019
-                                            </span>
-                                        </h6>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Kandy - Bogambara
-                                            </span>
-                                        </h6>
-                                        
-                                        <!-- <?php echo $record['subDescription2'];?> -->
-                                        </li>
-                                    </ul>
-                                    <!-- <a href="#" class="button">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>    
-                <!-- 3 -->
-                <div class="row">
-                    <div class="col">
-                        <div class="single-portfolio">
-                            <div class="row container pt-3" style="align-items: center;">
-                                <div class="col-md-12">
-                                    <h2 class="text-center">Construction of Warehouse complex at Embilipitiya in Ratnapura District.</h2>
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/03/1.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/03/20171117_164300.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/03/WP_20170703_13_25_46_Pro.jpg" alt="">
-                                        </div>
-                                    </div>
-                                
-                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
-                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>Contruction of warehouse Complex</span></h5>
-                                    <ul>
-                                        <li>
-                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
-                                        <?php echo $record['subDescription1'];?> -->
-                                        <br>
-                                        <h6><span>Client: Ministry of Finance</span></h6>
-                                        <!-- <?php echo $record['subDescription1'];?> -->
-                                        </li>
-                                        <li>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2017 - 2018
-                                            </span>
-                                        </h6>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Embilipitiya
-                                            </span>
-                                        </h6>
-                                        
-                                        <!-- <?php echo $record['subDescription2'];?> -->
-                                        </li>
-                                    </ul>
-                                    <!-- <a href="#" class="button">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!-- 4 -->
-                <div class="row">
-                    <div class="col">
-                        <div class="single-portfolio">
-                            <div class="row container pt-3" style="align-items: center;">
-                                <div class="col-md-12">
-                                    <h2 class="text-center">Construction of Grid Storage & Accommodation Building  </h2>
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/04/ec5b9939-a859-4437-8513-db0ab0f6d734.JPG" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/04/IMG_20181031_120823(1).jpg" alt="">
-                                        </div>
-                                    </div>
-                                
-                                    <!-- <h2> <?php echo $record['ProjectName'];?></h2>
-                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>Construction of warehouse Complex</span></h5>
-                                    <ul>
-                                        <li>
-                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
-                                        <?php echo $record['subDescription1'];?> -->
-                                        <br>
-                                        <h6><span>Client: Colombo Dockyard PLC</span></h6>
-                                        <!-- <?php echo $record['subDescription1'];?> -->
-                                        </li>
-                                        <li>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2019 - 2020
-                                            </span>
-                                        </h6>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Port of Colombo 
-                                            </span>
-                                        </h6>
-                                        
-                                        <!-- <?php echo $record['subDescription2'];?> -->
-                                        </li>
-                                    </ul>
-                                    <!-- <a href="#" class="button">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!-- 5 -->
-                <div class="row">
-                    <div class="col">
-                        <div class="single-portfolio">
-                            <div class="row container pt-3" style="align-items: center;">
-                                <div class="col-md-12">
-                                    <h2 class="text-center">Proposed Building for Installing Screw Type Mechanical Compost Plant Stage 01</h2>
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/05/DC 60 - 1.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/05/DC 60- 2.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/05/IMG-20200224-WA0022.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/05/IMG_20200903_112130_resized_20210326_093227527.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/05/IMG_20200903_112155_resized_20210326_093224506.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/05/IMG_20200904_130125_resized_20210326_093224925.jpg" alt="">
-                                        </div>
-                                    </div>
-                                
-                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
-                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>Proposed Building for Installing Screw Type Mechanical Compost Plant Stage 01 for Northern Province at Jaffna</span></h5>
-                                    <ul>
-                                        <li>
-                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
-                                        <?php echo $record['subDescription1'];?> -->
-                                        <br>
-                                        <h6><span>Client: Colombo Dockyard PLC</span></h6>
-                                        <!-- <?php echo $record['subDescription1'];?> -->
-                                        </li>
-                                        <li>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2019 - 2020
-                                            </span>
-                                        </h6>
-                                        <h6>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Jaffna
-                                            </span>
-                                        </h6>
-                                        
-                                        <!-- <?php echo $record['subDescription2'];?> -->
-                                        </li>
-                                    </ul>
-                                    <!-- <a href="#" class="button">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!-- 6 -->
-                <div class="row">
-                    <div class="col">
-                        <div class="single-portfolio">
-                            <div class="row container pt-3" style="align-items: center;">
-                                <div class="col-md-12">
-                                    <h2 class="text-center">Design and Build Contract for Construction of Warehouses</h2>
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/06/IMG_0252.JPG" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/06/IMG_0289.JPG" alt="">
-                                        </div>
-                                       
-                                    </div>
-                                
-                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
-                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>Design and Build Contract for Construction of Warehouses to Store HDPE PIpes at Aniyakanda Ekala & Church Hill Reservoir.Design and Build Contract for Construction of Warehouses to Store HDPE PIpes at Aniyakanda Ekala & Church Hill Reservoir.</span></h5>
+                                    <h5><span>Kelani Right Bank Water supply Project - Stage II ( P&P/WS/KRB2/2014/01) / Water supply and Sewerage</span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
@@ -414,7 +171,7 @@ include_once("db_connect.php");
                                         <h6>
                                             <span>
                                                 <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Gampaha
+                                                Location: Biyagama
                                             </span>
                                         </h6>
                                         
@@ -427,52 +184,43 @@ include_once("db_connect.php");
                         </div>
                     </div>
                 </div>
-
-                <!-- 7  -->
-                <!-- bridges -->
+                <hr>    
+                <!-- 21 -->
                 <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
                             <div class="row container pt-3" style="align-items: center;">
                                 <div class="col-md-12">
-                                    <h2 class="text-center">Construction of Water and Sewer pipe supporting truss bridge at Kathaluwa</h2>
+                                    <h2 class="text-center">Anamaduwa Integrated Water Supply Project - Construction of Flow Control Structure </h2>
                                     <div class="single-portfolio--slider">
                                         <div>
                                             <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/Project Photos - completed/07/DSC00024.JPG" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/07/DSC_0705.JPG" alt="">
-                                        </div>
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <img src="assets/img/Project Photos - completed/07/DSC_0725.JPG" alt="">
+                                            <img src="assets/img/Project Photos - completed/21/" alt="">
                                         </div>
                                     </div>
                                 
                                     <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h5><span>Construction of Water and Sewer pipe supporting.</span></h5>
+                                    <h5><span>Anamaduwa Integrated Water Supply Project / Supply & Sewerage  </span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
                                         <?php echo $record['subDescription1'];?> -->
                                         <br>
-                                        <h6><span>Client: Wakachiku   Co Ltd</span></h6>
+                                        <h6><span>Client: UTE Setapi Ellipse Anamaduwa </span></h6>
                                         <!-- <?php echo $record['subDescription1'];?> -->
                                         </li>
                                         <li>
                                         <h6>
                                             <span>
                                                 <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2017 - 2018
+                                                Year: 2020 -2021
                                             </span>
                                         </h6>
                                         <h6>
                                             <span>
                                                 <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Location: Kathaluwa
+                                                Location: Anamaduwa 
                                             </span>
                                         </h6>
                                         
@@ -485,7 +233,67 @@ include_once("db_connect.php");
                         </div>
                     </div>
                 </div>
- 
+                <hr>
+                <!-- 24 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="single-portfolio">
+                            <div class="row container pt-3" style="align-items: center;">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Crane Beam Repair Work at South Asian Gateway Terminal</h2>
+                                    <div class="single-portfolio--slider">
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/Project Photos - completed/24/DSC07479.JPG" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/24/DSC07490.JPG" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/24/DSC07602.JPG" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/Project Photos - completed/24/Restoration of Concrete structure SAGT colombo port.JPG" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <!-- <h2> <?php echo $record['ProjectName'];?></h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>Maritime constructions</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: South Asia Gateway Terminal Pvt Ltd</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Year: 2012 - 2014
+                                            </span>
+                                        </h6>
+                                        <h6>
+                                            <span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: Port of Colombo
+                                            </span>
+                                        </h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
     </div>
 

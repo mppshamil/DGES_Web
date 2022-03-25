@@ -47,7 +47,7 @@ include_once("db_connect.php");
 <div class="intro-page" style="background-image: url('<?php echo $record['imagepath'];  ?>');">
         <?php } ?>
         <div class="container">
-            <h1 style="color: white;">COMPLETED PROJECTS</h1>
+            <h1 style="color: white;">ONGOING PROJECTS</h1>
             <!-- <p style="color: gold;">Ongoing Projects</p> -->
             <!-- <p>This is the Test Navigation Page</p> -->
         </div>
@@ -78,210 +78,278 @@ include_once("db_connect.php");
     ?>
 
     <div class="wrapper">
+
             <div class="">
-                <!-- mechanical -->
-                <div class="row" style="background-color: rgb(247, 247, 247);">
+     
+                <div class="row">
                     <div class="col">
                         <div class="single-portfolio">
-
-                            <!-- 1 -->
-                            <div class="row">
-
-                                <div class="col-md-6" style="padding-top: 160px;">
-                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                            <!-- Castlerigh Gates -->
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Castlerigh Gates</h2>
+                                    <div class="single-portfolio--slider">
+                                        
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/projectPhotos-ongoing/Castlerigh Gates/WhatsApp Image 2022-02-25 at 1.51.44 PM (1).jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/projectPhotos-ongoing/Castlerigh Gates/WhatsApp Image 2022-02-25 at 1.51.44 PM (2).jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
+                                            <img src="assets/img/projectPhotos-ongoing/Castlerigh Gates/WhatsApp Image 2022-02-25 at 1.51.44 PM.jpeg" alt="">
+                                        </div>
+                                       
+                                    </div>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h2>Ambathale Pipe Diversion</h2>
-                                    <h5><span>Pipeline Diversion at Ambathale</span></h5>
-                                    <p> <?php //echo $record['ProjectDescription'];?></p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <h5><span>FABRICATION OF STEEL COMPONENTS OF PENUMATICALLY OPERATED SELF REGULATED WATER CONTROLLING CREST GATES</span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
                                         <?php echo $record['subDescription1'];?> -->
-
-                                        <h5><span>Client: Sri Lanka Land Development Corporation</span></h5>
+                                        <br>
+                                        <h6><span>Client: CEYLON ELECTRICTY BOARD</span></h6>
                                         <!-- <?php echo $record['subDescription1'];?> -->
                                         </li>
                                         <li>
-                                        <h5><span>
+                                        <h6><span>
                                             <!-- <?php echo $record['subTopic2'];  ?> -->
-                                            Year: 2019-2021
-                                        </span></h5>
+                                            Year: 2022
+                                        </span></h6>
+                                        
                                         <!-- <?php echo $record['subDescription2'];?> -->
                                         </li>
-                                    </ul>
-                                    <!-- <a href="#" class="button">Read More</a> -->
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/MechanicalProjects/completed/Ambathale Pipe Diversion/IMG_20200620_223052.jpg" alt="">
-                                        </div>
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- 2 -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/MechanicalProjects/completed/Ansell Lanka Latext Tank/IMG_20170531_142003.jpg" alt="">
-                                        </div>
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                    </div>
-                                </div>
-                                <div class="col-md-6" style="padding-top: 160px;">
-                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
-                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h2>Ansell Lanka Latext Tank</h2>
-                                    <h5><span>Design, Fabrication and Installation of 4 nos of Latex Storage Tanks</span></h5>
-                                    <p> <?php //echo $record['ProjectDescription'];?></p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    <ul>
                                         <li>
-                                        <!--<?php echo $record['subDescription1'];?> -->
-
-                                        <h5><span>Client: Ansell Lanka (Pvt) Ltd- Biyagama</span></h5>
-                                        <!-- <?php echo $record['subDescription1'];?> -->
-                                        </li>
-                                        <li>
-                                        <h5>
-                                            <span>
+                                            <h6><span>
                                                 <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2017
-                                            </span>
-                                        </h5>
-                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                                Location:
+                                            </span></h6>
                                         </li>
                                     </ul>
                                     <!-- <a href="#" class="button">Read More</a> -->
                                 </div>
-                                
                             </div>
-
-                            <!-- 3 -->
-                            <div class="row pt-3 pb-3">
-
-                                <div class="col-md-6" style="padding-top: 160px;">
-                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                            <hr>
+                            <!-- Fly Over -->
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Fly Over</h2>
+                                    <div class="single-portfolio--slider">
+                                        
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/projectPhotos-ongoing/Fly Over/DSC_5842.JPG" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h2>Ceylon Oxygen</h2>
-                                    <h5><span>Project Construction of New Plant</span></h5>
-                                    <p> <?php //echo $record['ProjectDescription'];?></p>
-
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+                                    <h5><span>SUPPLY AND FABRICATION OF STEEL BRIDGE SUPERSTRUCTURE AND OTHER STEEL COMPONENTS</span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
                                         <?php echo $record['subDescription1'];?> -->
-
-                                        <h5><span>Client: Ceylon Oxygen Ltd</span></h5>
+                                        <br>
+                                        <h6><span>Client: ACCESS ENGINEERING PLC</span></h6>
                                         <!-- <?php echo $record['subDescription1'];?> -->
                                         </li>
                                         <li>
-                                        <h5>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 
-                                            </span>
-                                        </h5>
+                                        <h6><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2022
+                                        </span></h6>
+                                        
                                         <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                        <li>
+                                            <h6><span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location: South Highwaygambara
+                                            </span></h6>
                                         </li>
                                     </ul>
                                     <!-- <a href="#" class="button">Read More</a> -->
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="single-portfolio--slider">
-                                        <div>
-                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/MechanicalProjects/completed/Ceylon Oxygen/DSC_0320.jpg" alt="">
-                                        </div>
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image2'];  ?>" alt="">  -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                        <!-- <div> -->
-                                            <!-- <img src="  <?php echo $record['Image3'];  ?>" alt=""> -->
-                                            <!-- <img src="" alt=""> -->
-                                        <!-- </div> -->
-                                    </div>
-                                </div>
                             </div>
+                            <hr>
 
-                            <!-- 4 -->
-                            <div class="row pb-3">
-                                <div class="col-md-6">
+                            <!--Katunayaka Tanks -->
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Katunayaka Tanks</h2>
                                     <div class="single-portfolio--slider">
+                                        
                                         <div>
                                             <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
-                                            <img src="assets/img/MechanicalProjects/completed/CIC Silo Ekala/DSC02664.JPG" alt="">
-                                        </div>
-                                        <div>
-                                            <img src="  <?php echo $record['Image2'];  ?>" alt=""> 
-                                            <img src="" alt="">
-                                        </div>
-                                        <div>
-                                            <img src="  <?php echo $record['Image3'];  ?>" alt="">
-                                            <img src="" alt="">
+                                            <img src="assets/img/projectPhotos-ongoing/Katunayaka Tanks/IMG_8344.jpg" alt="">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6" style="padding-top: 60px;">
-                                    <!-- <h2> <?php echo $record['ProjectName'];  ?> </h2>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
                                     <p> <?php echo $record['ProjectDescription'];?></p> -->
-                                    <h2>CIC Silo Ekala</h2>
-                                    <h5><span>Removing and Re-Installation of Silos<</span></h5>
-                                    <p> <?php //echo $record['ProjectDescription'];?></p>
-
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    
+                                    <h5><span>CCONSTRUCTION OF 2NOS OF FUEL TANKS FOR THE DEVELOPMENT & UPGRADING OF FUEL-HYDRANT SYSTEM AT BANDARANAYKE INTERNATIONAL AIRPORT SRI LANKA</span></h5>
                                     <ul>
                                         <li>
                                         <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
                                         <?php echo $record['subDescription1'];?> -->
-
-                                        <h5><span>Client: CIC FEEDS (PVT) LTD</span></h5>
+                                        <br>
+                                        <h6><span>CHINA NATIONAL CHEMICAL ENGINEERING </span></h6>
                                         <!-- <?php echo $record['subDescription1'];?> -->
                                         </li>
                                         <li>
-                                        <h5>
-                                            <span>
-                                                <!-- <?php echo $record['subTopic2'];  ?> -->
-                                                Year: 2016
-                                            </span>
-                                        </h5>
+                                        <h6><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2019-2022
+                                        </span></h6>
+                                        
                                         <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                        <li>
+                                            <h6><span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location:
+                                            </span></h6>
                                         </li>
                                     </ul>
                                     <!-- <a href="#" class="button">Read More</a> -->
                                 </div>
                             </div>
+                            <hr>
+                            <!-- Kukuleganga -->
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Kukuleganga</h2>
+                                    <div class="single-portfolio--slider">
+                                        
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/projectPhotos-ongoing/Kukuleganga/WhatsApp Image 2022-02-14 at 1.38.08 PM.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>SAND BLASTING AND PAINTING OF SPILLWAY GATES AND RELATED STEEL STRUCTURES </span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: CEYLON ELECTRICITY BOARD - KUKULEGANGA</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2020-2022
+                                        </span></h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                        <li>
+                                            <h6><span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location:
+                                            </span></h6>
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                            <hr>
+
+                            <!-- SLPA Workshop -->
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">SLPA Workshop </h2>
+                                    <div class="single-portfolio--slider">
+                                        
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/projectPhotos-ongoing/SLPA Workshop/WhatsApp Image 2021-11-26 at 1.49.00 PM (1).jpeg" alt="">
+                                        </div>
+                                        
+                                       
+                                    </div>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>CONSTRUCTION OF PROPOSED WORKSHOP BUILDING COMPLEX FOR SRI LANKA PORTS AUTHORITY</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: SRI LANKA PORT AUTHORITY</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2021-2022
+                                        </span></h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                        <li>
+                                            <h6><span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location:
+                                            </span></h6>
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Canion -->
+                            <div class="row container pt-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">Canion</h2>
+                                    <div class="single-portfolio--slider">
+                                        
+                                        <div>
+                                            <!-- <img src="  <?php echo $record['Image1'];  ?>" alt=""> -->
+                                            <img src="assets/img/projectPhotos-ongoing/Canion/WhatsApp Image 2022-02-15 at 9.47.39 PM (1).jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <!-- <h2> <?php echo $record['ProjectName'];?> </h2>
+                                    <p> <?php echo $record['ProjectDescription'];?></p> -->
+                                    <h5><span>SAND BLASTING AND PAINTING OF INTERIOR SURFACE OF PENSTOCK AND TUNNEL AT CANNYON</span></h5>
+                                    <ul>
+                                        <li>
+                                        <!-- <h5><span><?php echo $record['subTopic1'];  ?></span></h5>
+                                        <?php echo $record['subDescription1'];?> -->
+                                        <br>
+                                        <h6><span>Client: CEYLON ELECTRICITY BOARD- LAKXAPANA</span></h6>
+                                        <!-- <?php echo $record['subDescription1'];?> -->
+                                        </li>
+                                        <li>
+                                        <h6><span>
+                                            <!-- <?php echo $record['subTopic2'];  ?> -->
+                                            Year: 2022
+                                        </span></h6>
+                                        
+                                        <!-- <?php echo $record['subDescription2'];?> -->
+                                        </li>
+                                        <li>
+                                            <h6><span>
+                                                <!-- <?php echo $record['subTopic2'];  ?> -->
+                                                Location:
+                                            </span></h6>
+                                        </li>
+                                    </ul>
+                                    <!-- <a href="#" class="button">Read More</a> -->
+                                </div>
+                            </div>
+                            <hr>
+
                         </div>
                     </div>
                 </div>
-
             </div>
-        
     </div>
 
 
