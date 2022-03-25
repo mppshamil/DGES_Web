@@ -1,6 +1,43 @@
    
 <?php
 include_once("db_connect.php");
+
+if(isset($_POST['mod-send'])){
+    $name=$_POST['name'];
+    $contact=$_POST['contact'];
+    $email=$_POST['email'];
+    $message=$_POST['message'];
+   
+        
+    $html="<table><h2>Dear Company,</h2><tr><td><h3>Customer Name: <h3></td><td>$name</td></tr><tr><td><h3>Contact Number: <h3></td><td>$contact</td></tr><tr><td><h3>Email: <h3> </td><td>$email</td></tr><tr><td><h3>Message: <h3></td><td>$message</td></tr><h2>Thank You & Best Regards.</h2></table>";
+        
+        include('smtp/PHPMailerAutoload.php');
+        $mail=new PHPMailer(true);
+        $mail->isSMTP();
+        $mail->Host="smtp.gmail.com";
+        $mail->Port=587;
+        $mail->SMTPSecure="tls";
+        $mail->SMTPAuth=true;
+        $mail->Username="racheltaylor0002@gmail.com";
+	    $mail->Password="dtslife$1000";
+	    $mail->SetFrom("racheltaylor0002@gmail.com");
+	    $mail->addAddress("racheltaylor0002@gmail.com");
+        $mail->IsHTML(true);
+        $mail->Subject="Inquiry Regarding Sigma Products";
+        $mail->Body=$html;
+        $mail->SMTPOptions=array('ssl'=>array(
+            'verify_peer'=>false,
+            'verify_peer_name'=>false,
+            'allow_self_signed'=>false
+        ));
+         $mail->send();
+        
+    
+    }
+
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -89,29 +126,30 @@ include_once("db_connect.php");
                         </button>
                         </div>
                         <div class="modal-body">
-                            <form>
+                            <form action="" id="inquiry" method="post">
                                 <div class="form-group">
                                 <label for="formGroupExampleInput">Your Name</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                <input type="text" class="form-control" name ="name"id="name" placeholder="">
                                 </div>
                                 <div class="form-group">
                                 <label for="formGroupExampleInput2">Contact</label>
-                                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="">
+                                <input type="number" class="form-control" id="contact" name="contact" placeholder="">
                                 </div>
                                 <div class="form-group">
                                 <label for="formGroupExampleInput2">Email</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="">
                                 </div>
                                 <div class="form-group">
                                     <label for="formGroupExampleInput">Message</label>
-                                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Enter the Message" required></textarea>
+                                    <textarea class="form-control is-invalid" id="message" name="message"placeholder="Enter the Message" required></textarea>
                                 </div>
-                            </form>
+                           
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send</button>
+                        <button type="submit" class="btn btn-primary" name="mod-send" id="mod-send">Send</button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,42 @@
-﻿   
+﻿
 <?php
 include_once("db_connect.php");
+$msg="";
+
+if(isset($_POST['submit'])){
+$name=$_POST['name'];
+$email=$_POST['email'];
+$number=$_POST['number'];
+$subject=$_POST['subject'];
+$message=$_POST['message'];
+	
+$html="<table><h2>Dear Company,</h2><tr><td><h3>Name: <h3></td><td>$name</td></tr><tr><td><h3>Email: <h3></td><td>$email</td></tr><tr><td><h3>Phone No: <h3> </td><td>$number</td></tr><tr><td><h3>Message: <h3></td><td>$message</td></tr><h2>Thank You & Best Regards.</h2></table>";
+	
+	include('smtp/PHPMailerAutoload.php');
+	$mail=new PHPMailer(true);
+	$mail->isSMTP();
+	$mail->Host="smtp.gmail.com";
+	$mail->Port=587;
+	$mail->SMTPSecure="tls";
+	$mail->SMTPAuth=true;
+	$mail->Username="racheltaylor0002@gmail.com";
+	$mail->Password="dtslife$1000";
+	$mail->SetFrom("racheltaylor0002@gmail.com");
+	$mail->addAddress("racheltaylor0002@gmail.com");
+	$mail->IsHTML(true);
+	$mail->Subject="$subject";
+	$mail->Body=$html;
+	$mail->SMTPOptions=array('ssl'=>array(
+		'verify_peer'=>false,
+		'verify_peer_name'=>false,
+		'allow_self_signed'=>false
+	));
+ 	$mail->send();
+	
+
+}
+
+
 ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -86,13 +122,13 @@ include_once("db_connect.php");
                         </div>
                         <div class="col-md-7">
                             <div class="keep-touch--white">
-                                <form action="">
-                                    <input type="text" placeholder="Name">
-                                    <input type="text" placeholder="Email">
-                                    <input type="text" placeholder="Phone Number">
-                                    <input type="text" placeholder="Subject">
-                                    <textarea name="" id="" rows="5" placeholder="Message"></textarea>
-                                    <input type="submit" class="button small" value="Contact Us">
+                                <form action="" id="contact" method="post">
+                                    <input type="text" placeholder="Name" id="name" name="name">
+                                    <input type="text" placeholder="Email"id="email" name="email">
+                                    <input type="text" placeholder="Phone Number"id="number" name="number">
+                                    <input type="text" placeholder="Subject"id="subject" name="subject">
+                                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                                    <input type="submit" name ="submit" class="submit" class="button small" value="Contact Us">
                                 </form>
                             </div>
                         </div>

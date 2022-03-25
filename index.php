@@ -571,7 +571,7 @@ include_once("db_connect.php");
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>

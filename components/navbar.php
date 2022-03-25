@@ -75,8 +75,11 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="services.php#SpecializedEngineering">Specialized Engineering</a>
-                                    
                                 </li>           
+                                <li>
+                                    <a class="dropdown-item" href="services.php#SpecializedEngineering">Bridges Building/ Steel Fabrication</a>
+                                    
+                                </li>  
                             </ul>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
@@ -111,7 +114,7 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                             <ul class="dropdown-menu dropdown-submenu">
                                 <li>
-                                    <a class="dropdown-item" href="">Completed Projects &raquo;</a>
+                                    <a class="dropdown-item">Completed Projects &raquo;</a>
                                     <!-- <ul class="dropdown-submenu dropdown-submenu-left dropdown-menu">
                                         <li><a class="dropdown-item" href="">Submenu item 1</a></li>
                                         <li><a class="dropdown-item" href="">Submenu item 2</a></li>
@@ -120,63 +123,70 @@
                                     </ul> -->
                                     <ul class="dropdown-menu dropdown-submenu">
                                         <li>
-                                            <a class="dropdown-item" href="comGeneralInfra.php">General Infrastructure</a>
+                                            <a class="dropdown-item" href="comBridgesBuilding.php">Bridges Building /Steel Fabrication</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comIrrigation.php">Irrigation</a>
+                                            <a class="dropdown-item" href="comGeneralinfra.php">General Infrastructure</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comPetrochemical.php">Petrochemical</a>
+                                            <a class="dropdown-item" href="comIrrigation.php">Irrigation</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comPowerEnergy.php">Power and Energy</a>
+                                            <a class="dropdown-item" href="comPetrochemical.php">Petrochemical</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comLandWater.php">Land/ Water Based Carriages</a>
+                                            <a class="dropdown-item" href="comPowerEnergy.php">Power and Energy</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comHeavyStruct.php">Heavy Structures</a>
+                                            <a class="dropdown-item" href="comLandWater.php">Land/ Water Based Carriages</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comSlopeStab.php">Slope Stablization</a>
+                                            <a class="dropdown-item" href="comHeavyStruct.php">Heavy Structures</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comConcreteStruct.php">Concrete Structure Restoration</a>
+                                            <a class="dropdown-item" href="comSlopeStab.php">Slope Stablization</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="../projectsnew/completed/comSpecializedEng.php">Specialized Engineering</a>
+                                            <a class="dropdown-item" href="comConcreteStruct.php">Concrete Structure Restoration</a>
                                         </li>
+                                        <li>
+                                            <a class="dropdown-item" href="comSpecializedEng.php">Specialized Engineering</a>
+                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="ongoingProjects.php">Ongoing Projects &raquo;</a>
                                     <ul class="dropdown-menu dropdown-submenu">
                                         <li>
-                                            <a class="dropdown-item" href="productsGarco.php">General Infrastructure</a>
+                                            <a class="dropdown-item" href="">Bridges Building /Steel Fabrication</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="ecoquip.php">Irrigation</a>
+                                            <a class="dropdown-item" href="onGeneralinfra.php">General Infrastructure</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="productsGarco.php">Petrochemical</a>
+                                            <a class="dropdown-item" href="">Irrigation</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="ecoquip.php">Power and Energy</a>
+                                            <a class="dropdown-item" href="">Petrochemical</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="productsGarco.php">Land/ Water Based Carriages</a>
+                                            <a class="dropdown-item" href="">Power and Energy</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="ecoquip.php">Heavy Structures</a>
+                                            <a class="dropdown-item" href="">Land/ Water Based Carriages</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="productsGarco.php">Slope Stablization</a>
+                                            <a class="dropdown-item" href="">Heavy Structures</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="ecoquip.php">Concrete Structure Restoration</a>
+                                            <a class="dropdown-item" href="">Slope Stablization</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="ecoquip.php">Specialized Engineering</a>
+                                            <a class="dropdown-item" href="">Concrete Structure Restoration</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="">Specialized Engineering</a>
                                         </li>
                                     </ul>
                                 </li>                              
